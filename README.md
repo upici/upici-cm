@@ -11,16 +11,15 @@
 <li><a href="#orgheadline5">1.5. Emploi du temps</a></li>
 </ul>
 </li>
-<li><a href="#orgheadline15">2. Quelques mots sur le calcul scientifique (dans ce cours)</a>
+<li><a href="#orgheadline14">2. Quelques mots sur le calcul scientifique (dans ce cours)</a>
 <ul>
 <li><a href="#orgheadline7">2.1. Introduction</a></li>
-<li><a href="#orgheadline8">2.2. Résoudre des problèmes concret de science ou d'ingénierie (industrie, santé&#x2026;)</a></li>
-<li><a href="#orgheadline9">2.3. Des problèmes spécifiques</a></li>
-<li><a href="#orgheadline10">2.4. Matériel</a></li>
-<li><a href="#orgheadline11">2.5. Outils informatiques</a></li>
-<li><a href="#orgheadline12">2.6. Mathématiques</a></li>
-<li><a href="#orgheadline13">2.7. Objectif principal</a></li>
-<li><a href="#orgheadline14">2.8. Liens</a></li>
+<li><a href="#orgheadline8">2.2. Des problèmes spécifiques</a></li>
+<li><a href="#orgheadline9">2.3. Matériel</a></li>
+<li><a href="#orgheadline10">2.4. Outils informatiques</a></li>
+<li><a href="#orgheadline11">2.5. Mathématiques</a></li>
+<li><a href="#orgheadline12">2.6. Objectif principal</a></li>
+<li><a href="#orgheadline13">2.7. Liens</a></li>
 </ul>
 </li>
 </ul>
@@ -156,7 +155,7 @@ projet donne lieu à
 
 (\*) rapport ou présentation orale
 
-# Quelques mots sur le calcul scientifique (dans ce cours)<a id="orgheadline15"></a>
+# Quelques mots sur le calcul scientifique (dans ce cours)<a id="orgheadline14"></a>
 
 ## Introduction<a id="orgheadline7"></a>
 
@@ -172,13 +171,7 @@ accélèrent le développement de ces solutions techniques. La maîtrise de ces
 outils et du calcul scientifique est un atout important de la recherche
 d'emploi.
 
-## Résoudre des problèmes concret de science ou d'ingénierie (industrie, santé&#x2026;)<a id="orgheadline8"></a>
-
 Quelques questions importantes à propos du calcul scientifique:
-
--   Division théorie et expérimental en science ? Place et rôle du calcul
-
-scientifique ?
 
 -   Quelles plateformes matérielles, quels outils informatiques, quelles méthodes
 
@@ -188,7 +181,7 @@ mathématiques ?
     pratiques de programmation pour cela (gestion de versions &#x2013; git, svn&#x2026; &#x2013;,
     tests, documentation&#x2026;) ?
 
-## Des problèmes spécifiques<a id="orgheadline9"></a>
+## Des problèmes spécifiques<a id="orgheadline8"></a>
 
 Des problèmes d'ingénierie ou de recherche qui demande la résolution de
 problèmes numériques de très grandes tailles ou qui sont très nombreux.
@@ -203,7 +196,7 @@ opérations&#x2026;) des grands tableaux de nombres. Et donc d'un point de vue
 mathématique sur l'algèbre linéaire pour des grandes matrices. Grand = plusieurs
 millions, voir des milliards. Exemple: un cube 100\*100\*100 = 1 million.
 
-## Matériel<a id="orgheadline10"></a>
+## Matériel<a id="orgheadline9"></a>
 
 -   **Ordinateurs portable:** faibles performances mais très répandus, en général
     multicoeur à mémoire partagée.
@@ -213,7 +206,7 @@ millions, voir des milliards. Exemple: un cube 100\*100\*100 = 1 million.
     architectures possibles, mais modèles hiérarchique et complexes difficiles
     à programmer.
 
-## Outils informatiques<a id="orgheadline11"></a>
+## Outils informatiques<a id="orgheadline10"></a>
 
 -   **bibliothèques:** qui permettent d'accéder aux fonctionnalités du matériels,
     comme MPI et autres techniques de communication ou gestion de la mémoire et
@@ -225,7 +218,7 @@ millions, voir des milliards. Exemple: un cube 100\*100\*100 = 1 million.
     intuitive avec les bibliothèques, temps de développement raccourci,
     maintien plus simple, interface intuitive avec les bibliothèques&#x2026;
 
-## Mathématiques<a id="orgheadline12"></a>
+## Mathématiques<a id="orgheadline11"></a>
 
 -   Les problèmes sont souvent du domaine des EDP (qqsoit le champ d'application).
 -   Analyse fonctionnelle et EDP.
@@ -235,7 +228,7 @@ millions, voir des milliards. Exemple: un cube 100\*100\*100 = 1 million.
 -   Résolution d'équations différentielles.
 -   Interpolation, approximation, intégration numérique.
 
-## Objectif principal<a id="orgheadline13"></a>
+## Objectif principal<a id="orgheadline12"></a>
 
 Mettre en oeuvre **sans se casser la tête** les méthodes ci-dessus pour résoudre
 des problèmes numériquement complexe sur des ordinateurs dédiés au calcul,
@@ -243,9 +236,9 @@ des problèmes numériquement complexe sur des ordinateurs dédiés au calcul,
 
 Ça demande l'utilisation d'outils informatique et numériques spécifiques.
 
-## Liens<a id="orgheadline14"></a>
+## Liens<a id="orgheadline13"></a>
 
-Liste de quelques pointeurs pour le calcul scientifique
+Liste de quelques liens.
 
 -   **matlab:** <http://fr.mathworks.com/>, licence commerciale
 -   **scilab:** <http://www.scilab.org/fr>, licence open source CeCILL, téléchargeable
