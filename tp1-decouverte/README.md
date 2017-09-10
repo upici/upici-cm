@@ -37,12 +37,14 @@ cours.
         courant (commandes linux de base, voir
         <https://doc.ubuntu-fr.org/tutoriel/console_commandes_de_base> ou
         <http://tdinfo.phelma.grenoble-inp.fr/docs/guideUnix.pdf> par exemple).
-    -   Familiarisé vous avec le contenu du répertoire, qui devrait ressembler à :
+    -   Familiarisez vous avec le contenu du répertoire, qui devrait ressembler à :
 
-    cours/
+\#+BEGIN<sub>EXAMPLE</sub> screen 
+cours/
+├── README.md
+└── tp1-decouverte
     ├── README.md
-    └── tp1-decouverte
-        ├── README.md
+\\#+END<sub>EXAMPLE</sub> screen 
 
 1.  Premier programme
 
