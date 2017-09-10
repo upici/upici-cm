@@ -39,15 +39,12 @@ cours.
         <http://tdinfo.phelma.grenoble-inp.fr/docs/guideUnix.pdf> par exemple).
     -   Familiarisez vous avec le contenu du répertoire, qui devrait ressembler à :
 
-    cours/
-    ├── README.md
-    └── tp1-decouverte
-        ├── README.md
-
-    cours/
-    ├── README.md
-    └── tp1-decouverte
-        ├── README.md
+<p class="verse">
+cours/<br  />
+├── README.md<br  />
+└── tp1-decouverte<br  />
+&#xa0;&#xa0;&#xa0;&#xa0;├── README.md<br  />
+</p>
 
 1.  Premier programme
 
