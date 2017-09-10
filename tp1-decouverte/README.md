@@ -34,7 +34,10 @@ cours.
 1.  Environnement de travail. Pour travailler, nous avons besoin d'un terminal et
     d'un éditeur de texte. 
     
-    [![img](./img/ecran01.png "Voici à quoi ressemble mon écran lors de l'écriture des notes de cours.")](img/ecran01.png)
+      [![img](./img/ecran01.png "Voici à quoi ressemble mon écran lors de l'écriture des notes de cours.")](img/ecran01.png) 
+    Si vous utilisez `emacs`, il est conseillé de configurer emacs dans le
+    fichier `$HOME/.emacs`. Vous trouverez un exemple de configuration ici:
+    [<./.emacs>](.emacs).
     
     -   Cloner le dépôt, ceci créera un repertoire csm1 dans votre répertoire
         courant (commandes linux de base, voir
