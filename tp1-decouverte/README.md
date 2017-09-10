@@ -2,7 +2,7 @@
 <h2>Table des matières</h2>
 <div id="text-table-of-contents">
 <ul>
-<li><a href="#orgheadline1">1. Instructions envoyéez par email</a></li>
+<li><a href="#orgheadline1">1. Instructions envoyées par email</a></li>
 <li><a href="#orgheadline2">2. Travail Pratique</a></li>
 <li><a href="#orgheadline3">3. Resources</a></li>
 <li><a href="#orgheadline4">4. Instructions pour les projets en groupes</a></li>
@@ -12,7 +12,7 @@
 </div>
 
 
-# Instructions envoyéez par email<a id="orgheadline1"></a>
+# Instructions envoyées par email<a id="orgheadline1"></a>
 
 Nous utiliserons la plateforme Github (<https://github.com>) pour tout le travail
 de ce cours (notes, comptes-rendus, programmes, résultats, etc).
@@ -31,8 +31,20 @@ cours.
 
 # Travail Pratique<a id="orgheadline2"></a>
 
-1.  Environnement de travail
-2.  Premier programme
+1.  Environnement de travail. Pour travailler, nous avons besoin d'un terminal et
+    d'un éditeur de texte. 
+    -   Cloner le dépôt, ceci créera un repertoire csm1 dans votre répertoire
+        courant (commandes linux de base, voir
+        <https://doc.ubuntu-fr.org/tutoriel/console_commandes_de_base> ou
+        <http://tdinfo.phelma.grenoble-inp.fr/docs/guideUnix.pdf> par exemple).
+    -   Familiarisé vous avec le contenu du répertoire, qui devrait ressembler à :
+
+    cours/
+    ├── README.md
+    └── tp1-decouverte
+        ├── README.md
+
+1.  Premier programme
 
 # Resources<a id="orgheadline3"></a>
 
@@ -78,3 +90,5 @@ cours.
 -   Est-ce que je peux utiliser un autre système que je connais, par exemple svn,
     butbucket ou mercurial ? Non, puisque nous utilisons Git Classromm dans ce
     cours.
+
+<https://classroom.github.com/a/FDn1tAoQ>
