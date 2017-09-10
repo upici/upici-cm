@@ -40,11 +40,13 @@ cours.
     -   Familiarisez vous avec le contenu du répertoire, qui devrait ressembler à :
 
     cours/
-    
     ├── README.md
-    
     └── tp1-decouverte
-    
+        ├── README.md
+
+    cours/
+    ├── README.md
+    └── tp1-decouverte
         ├── README.md
 
 1.  Premier programme
