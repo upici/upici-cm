@@ -2,16 +2,17 @@
 <h2>Table des matières</h2>
 <div id="text-table-of-contents">
 <ul>
-<li><a href="#orgheadline1">1. Instructions pour l'utilisation de Github pour le travail cours (<b>obligatoire</b>)</a></li>
-<li><a href="#orgheadline2">2. Resources</a></li>
-<li><a href="#orgheadline3">3. Instructions pour les projets en groupes</a></li>
-<li><a href="#orgheadline4">4. Foire aux question</a></li>
+<li><a href="#orgheadline1">1. Instructions envoyéez par email</a></li>
+<li><a href="#orgheadline2">2. Travail Pratique</a></li>
+<li><a href="#orgheadline3">3. Resources</a></li>
+<li><a href="#orgheadline4">4. Instructions pour les projets en groupes</a></li>
+<li><a href="#orgheadline5">5. Foire aux questions</a></li>
 </ul>
 </div>
 </div>
 
 
-# Instructions pour l'utilisation de Github pour le travail cours (**obligatoire**)<a id="orgheadline1"></a>
+# Instructions envoyéez par email<a id="orgheadline1"></a>
 
 Nous utiliserons la plateforme Github (<https://github.com>) pour tout le travail
 de ce cours (notes, comptes-rendus, programmes, résultats, etc).
@@ -28,7 +29,12 @@ cours.
 1.  Pour créer un tel dépôt, il vous suffit d'accepter le lien d'invitation que
     je vous ai envoyé par email (sur l'email *prenom.nom@etu.u-bordeaux.fr*).
 
-# Resources<a id="orgheadline2"></a>
+# Travail Pratique<a id="orgheadline2"></a>
+
+1.  Environnement de travail
+2.  Premier programme
+
+# Resources<a id="orgheadline3"></a>
 
 -   Tutoriel (fr) pour une utilisation simple de Git:
     <http://yannesposito.com/Scratch/fr/blog/2009-11-12-Git-for-n00b/>
@@ -39,7 +45,7 @@ cours.
 -   Tutoriel (en) sur le processus de travail Git:
     <https://www.atlassian.com/git/tutorials/comparing-workflows>
 
-# Instructions pour les projets en groupes<a id="orgheadline3"></a>
+# Instructions pour les projets en groupes<a id="orgheadline4"></a>
 
 1.  Pour un projet en groupe de deux personnes ou plus, un seul membre doit
     accepter le lien d'invitation. Celui-ci doit alors aller sur le dépôt créé,
@@ -52,7 +58,7 @@ cours.
     les pousser sur le dépôts, et chaque membre peut alors se mettre à jour avec
     le dépôt.
 
-# Foire aux question<a id="orgheadline4"></a>
+# Foire aux questions<a id="orgheadline5"></a>
 
 -   Pourquoi utiliser Github pour les TP et projets ? Chaque projet logiciel doit
     utiliser un système de contrôle du code. Github est un système moderne et
