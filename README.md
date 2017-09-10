@@ -73,6 +73,8 @@ projet donne lieu à
 
 ## Emploi du temps<a id="orgheadline4"></a>
 
+Code de l'UE: `4TMS702U`
+
 <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 
 
