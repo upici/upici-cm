@@ -178,6 +178,9 @@ et à mesure de l'avancement du cours.
 ## Python<a id="orgheadline8"></a>
 
 -   Le langage Python (et les modules cités plus haut), <https://www.python.org>
+-   La pile des modules dédiés au calcul scientifique,
+    <https://www.scipy.org/about.html>, licences libres variées.
+-   Il existe de nombreuses autres resources pour python.
 
 ## EDP et calcul scientifique<a id="orgheadline11"></a>
 
@@ -204,9 +207,7 @@ d'emploi.
 Quelques questions importantes à propos du calcul scientifique:
 
 -   Quelles plateformes matérielles, quels outils informatiques, quelles méthodes
-
-mathématiques ?
-
+    mathématiques ?
 -   Comment assurer la eproductibilité des résultats ? Quelles sont les bonnes
     pratiques de programmation pour cela (gestion de versions &#x2013; git, svn&#x2026; &#x2013;,
     tests, documentation&#x2026;) ?
@@ -225,6 +226,10 @@ coeur des algorithmes repose sur la gestion (construction, manipulation,
 opérations&#x2026;) des grands tableaux de nombres. Et donc d'un point de vue
 mathématique sur l'algèbre linéaire pour des grandes matrices. Grand = plusieurs
 millions, voir des milliards. Exemple: un cube 100\*100\*100 = 1 million.
+
+À partir de ces opérations matricielles, nous allons construire des algorithmes
+qui permettent de calculer des solutions approchées d'équations aux dérivées
+partielles.
 
 ## Matériel<a id="orgheadline15"></a>
 
@@ -307,12 +312,14 @@ Communauté importante d'utilisateurs, écosystème étendu:
 -   **etc:** et plein d'autres
 
 Bonnes performances grâce à l'integration des bibliothèques optimisées venant du
-C ou du Fortran (blas, atlas blas, lapack, arpack, Intel MKL&#x2026;).
-
-Support assez bon pour le calcul parralèle (threads, openmp, mpi, cuda, opencl)
+C ou du Fortran (blas, atlas blas, lapack, arpack, Intel MKL&#x2026;).  Support assez
+bon pour le calcul parralèle (threads, openmp, mpi, cuda, opencl)
 
 -   **Schéma de principe:** Python <- Numpy <- {Scipy, Matplotlib, Autres boîtes à
     outils} <- Programme utilisateur
+
+**Note:** Nous utiliserons python pour faire de la programmation procédural, et
+sans utiliser de notions complexes de programmation orientée objet.
 
 ## Interpéteur<a id="orgheadline23"></a>
 
@@ -322,15 +329,13 @@ Support assez bon pour le calcul parralèle (threads, openmp, mpi, cuda, opencl)
     historique des commandes, complétion automatique, édition de code,
     extraction de documentation, interaction avec l'environnement, etc.
 -   **jupyter notebook:** environnement de travail augmenté avec possibilité de
-    prendre des notes et de montrer des résultats. C'es tce qui devra être
-    utiliser pour présenter un compte-rendu terminal. On joint le code, les
-    commentaires, la trace de son exécution, les discussions sur les résultats.
+    prendre des notes et de montrer des résultats. Nécessite d'utiliser un
+    serveur jupyter, édition hors-ligne délicate.
 
 ## Disponibilité, installation<a id="orgheadline24"></a>
 
 Python est disponible sous linux, windows et MacOS. Dans tous les cas, il faut
-installer au minimum: python, ipython, numpy, scipy, matplotlib,
-{ipython-notebook ou jupyter &#x2013; suivant version}.
+installer au minimum: python, ipython, numpy, scipy, matplotlib.
 
-Attention, le cours est préparé avec python-3.4.3, numpy-1.10.4, scipy-0.16.1,
-matplotlib-1.4.3, ipython-5.1.0.
+Attention, le cours est préparé avec python-3.4.5, numpy-1.10.4, scipy-0.16.1,
+matplotlib-1.4.3, ipython-5.4.1.
