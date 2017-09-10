@@ -33,6 +33,9 @@ cours.
 
 1.  Environnement de travail. Pour travailler, nous avons besoin d'un terminal et
     d'un éditeur de texte. 
+    
+    [![img](./img/ecran01.png "Voici à quoi ressemble mon écran lors de l'écriture des notes de cours.")](img/ecran01.png)
+    
     -   Cloner le dépôt, ceci créera un repertoire csm1 dans votre répertoire
         courant (commandes linux de base, voir
         <https://doc.ubuntu-fr.org/tutoriel/console_commandes_de_base> ou
