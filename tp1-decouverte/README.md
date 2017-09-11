@@ -44,17 +44,14 @@ cours.
         <https://doc.ubuntu-fr.org/tutoriel/console_commandes_de_base> ou
         <http://tdinfo.phelma.grenoble-inp.fr/docs/guideUnix.pdf> par exemple).
     -   Familiarisez vous avec le contenu du répertoire, qui devrait ressembler à :
-
-<p class="verse">
-cours/<br  />
-├── README.md<br  />
-└── tp1-decouverte<br  />
-&#xa0;&#xa0;&#xa0;&#xa0;├── README.md<br  />
-&#xa0;&#xa0;&#xa0;&#xa0;└── img<br  />
-&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;├── ecran01.png<br  />
-</p>
-
-1.  Vous pouvez maintenant faire des tests avec les programmes
+    
+        cours/
+        ├── README.md
+        └── tp1-decouverte
+            ├── README.md
+            └── img
+                ├── ecran01.png
+2.  Vous pouvez maintenant faire des tests avec les programmes
     [<./src/hello_world.py>](src/hello_world.py) (affichage) et [<./src/data_types.py>](src/data_types.py) (types très
     simples). Pour cela, on peut 
     -   soit exécuter directement les fichiers dans le terminal:
