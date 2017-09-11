@@ -31,10 +31,8 @@ cours.
 
 # Travail Pratique<a id="orgheadline2"></a>
 
-<div class="org-center">
-Vous rédigerez un bref compte-rendu de travail dans le document [./CR.md](./CR.md) en
-langage Markdown.
-</div>
+**Vous rédigerez un bref compte-rendu de travail dans le document [./CR.md](./CR.md) en
+ langage Markdown.**
 
 1.  Pour travailler, notre environnement de travail sera constitué d'un terminal
     et d'un éditeur de texte qui vous soit familier, il s'agit de [emacs](https://www.gnu.org/software/emacs) dans
