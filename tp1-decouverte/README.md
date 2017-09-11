@@ -32,23 +32,22 @@ cours.
 # Travail Pratique<a id="orgheadline2"></a>
 
 <div class="org-center">
-Vous rédigerez un bref compte-rendu de travail dans le document [<./CR.md>](CR.md), en
+Vous rédigerez un bref compte-rendu de travail dans le document [./CR.md](./CR.md) en
 langage Markdown.
 </div>
 
 1.  Pour travailler, notre environnement de travail sera constitué d'un terminal
-    et d'un éditeur de texte qui vous soit familier, il s'agit de `emacs` dans
+    et d'un éditeur de texte qui vous soit familier, il s'agit de [emacs](https://www.gnu.org/software/emacs) dans
     mon cas. Vous pouvez éventullement utiliser un environnement de travail
     intégré (IDE) dédié qui supporte git et python.
     
-      [![img](./img/ecran01.png "Voici à quoi ressemble mon écran lors de l'écriture des notes de cours.")](img/ecran01.png) 
-    Si vous utilisez `emacs`, il est conseillé de configurer emacs dans le
-    fichier `$HOME/.emacs`. Vous trouverez un exemple de configuration ici:
-    [<./.emacs>](.emacs). 
+      [![img](./img/ecran01.png "Voici à quoi ressemble mon écran lors de l'écriture des notes de cours.")](img/ecran01.png) Concernant `emacs`, il est conseillé de le
+    configurer dans le fichier `$HOME/.emacs`. Vous trouverez un exemple de
+    configuration ici: [./.emacs](./.emacs)
     
     -   Prenez le temps de choisir votre environnement de travail en explorant les
         différentes possibilités. Expliquer votre choix dans le compte-rendu
-        ([<./CR.md>](CR.md), accessible après la question ci-dessous).
+        ([./CR.md](./CR.md) accessible après la question ci-dessous).
     -   Cloner le dépôt, ceci créera un repertoire `csm1` dans votre répertoire
         courant. Expliquer dans le compte-rendu les difficultés que vous avez eu à
         cette étape. (commandes linux de base, voir
@@ -72,17 +71,15 @@ langage Markdown.
         
         Quel est la nature (langage ?) et le rôle (texte, programme, autre) de
         chacun des fichiers présents ?
-2.  Nous allons maintenant travailler avec les programmes
-    [<./src/hello_world.py>](./src/hello_world.py) (affichage) et [<./src/data_types.py>](src/data_types.py) (types très
-    simples). Pour cela, on peut
+2.  Nous allons maintenant travailler avec les programmes [./src/hello<sub>world.py</sub>](./src/hello_world.py)
+       (affichage) et [./src/data<sub>types.py</sub>](./src/data_types.py) (types très simples). Pour cela, on peut
     
     -   soit exécuter directement les fichiers dans le terminal:
         
             $ ./src/hello_world.py
             (suppressed output)
             $ ./src/data_types.py
-        
-        (suppressed output)
+            (suppressed output)
     -   ou alors dans l'interpréteur `ipython`:
         
             $ ipython
@@ -102,15 +99,15 @@ langage Markdown.
     
     Donnez le contenu des sorties qui ont été supprimées dans ces deux exemples.
 3.  Pour l'équation différentielle \(y'' + by = a^2 = 0\), le programme
-    [<./src/phase_systlin.py>](src/phase_systlin.py) permet de tracer les lignes de courant du plan de
+    [./src/phase<sub>systlin.py</sub>](./src/phase_systlin.py) permet de tracer les lignes de courant du plan de
     phase \((y, y')\). Faites varier les valeurs prises par les coefficients \(a\) et
     \(b\) et illustrez les différents comportement de l'équation: oscillateur
     parfaitement harmonique, oscillateur amorti, et oscillateur amplifié. Dans
     chaque cas, on pourra inclure au compte-rendu une image (cf par exemple
     <https://guides.github.com/features/mastering-markdown>).
 4.  La solution exacte de cette équation s'exprime de manière analytique. En
-    ajoutant du code au fichier [<./src/phase_systlin.py>](src/phase_systlin.py), pour la donnée
-    initiale \((y(0),y'(0)) = (1,0)\),
+    ajoutant du code au fichier [./src/phase<sub>systlin.py</sub>](./src/phase_systlin.py) pour la donnée initiale
+    \((y(0),y'(0)) = (1,0)\),
     
     -   tracer les trajectoires solutions exactes dans le plan de phase (sur les
         champs de vecteurs déjà obtenus);
