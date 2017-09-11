@@ -1,21 +1,20 @@
 #! /usr/bin/env python
-# -*- coding: iso-8859-1 -*-
+# -*- coding: utf-8 -*-
 
-# from fonctions import *
 import numpy as np
 import matplotlib.pyplot as plt
 
-# Paramètres du système linéaire, y'' + by' + a^2y = 0, qui est un oscillateur
-# harmonique (cas b=0) amorti (b>0) ou amplifié (b<0).
-a = 1.  # fréquence
+# ParamÃ¨tres du systÃ¨me linÃ©aire, y'' + by' + a^2y = 0, qui est un oscillateur
+# harmonique (cas b=0) amorti (b>0) ou amplifiÃ© (b<0).
+a = 1.  # frÃ©quence
 b = 0.6 # amortissement
-A = np.array([[0.,1.],[-a**2,-b]]) # Matrice du système obtenu par réécriture à
-                                   # l'ordre 1 de l'équation
+A = np.array([[0.,1.],[-a**2,-b]]) # Matrice du systÃ¨me obtenu par rÃ©Ã©criture Ã 
+                                   # l'ordre 1 de l'Ã©quation
 
 # Bornes du plan de phase que l'on va tracer
 xmin,xmax, ymin,ymax = -2.,2., -2.,2.
 
-# Pas en x et y utilisé pour tracer les graphes du plan de phase.
+# Pas en x et y utilisÃ© pour tracer les graphes du plan de phase.
 hx = (xmax-xmin)/10.
 hy = (ymax-ymin)/10.
 
@@ -53,11 +52,11 @@ plt.axis([xmin,xmax,ymin,ymax])
 plt.colorbar()
 plt.xlabel("y1")
 plt.ylabel("y2)")
-plt.title("Plan de phase système linéaire")
+plt.title("Plan de phase systÃ¨me linÃ©aire")
 plt.grid(True)
 
 # ========================================
-# Partie 2, question 3: code à insérer ici
+# Partie 2, question 3: code Ã  insÃ©rer ici
 # ========================================
 
 plt.savefig("lineaire.png")
