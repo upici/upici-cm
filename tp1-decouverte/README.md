@@ -79,7 +79,11 @@ cours.
         In [2]: run ./src/data_types.py
         (supressed output)
 
-1.  Un programme avec des fonctions
+1.  Pour l'équation différentielle \(y'' + by = a^2 = 0\), le programme
+    [<./src/phase_systlin.py>](src/phase_systlin.py) permet de tracer les lignes de courant du plan de
+    phase \((y, y')\). Faites varier les valeurs prises par les coefficients \(a\) et
+    \(b\) et illustrez les différents comportement de l'équation: oscillateur
+    parfaitement harmonique, oscillateur amorti, et oscillateur amplifié.
 2.  Du travail à faire à partir de ce programme
 
 # Resources<a id="orgheadline3"></a>
