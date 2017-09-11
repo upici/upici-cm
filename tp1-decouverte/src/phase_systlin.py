@@ -3,6 +3,9 @@
 
 import numpy as np
 import matplotlib.pyplot as plt
+# ========================================
+# Partie 2, question 4: code à insérer ici
+# ========================================
 
 # Paramètres du système linéaire, y'' + by' + a^2y = 0, qui est un oscillateur
 # harmonique (cas b=0) amorti (b>0) ou amplifié (b<0).
@@ -57,6 +60,7 @@ plt.grid(True)
 
 # ========================================
 # Partie 2, question 3: code à insérer ici
+# Partie 2, question 4: code à insérer ici
 # ========================================
 
 plt.savefig("lineaire.png")

@@ -104,7 +104,7 @@ cas. Vous pouvez éventullement utiliser un environnement de travail intégré
     comportement de l'équation: oscillateur parfaitement harmonique, oscillateur
     amorti, et oscillateur amplifié. Explicitez les comportement dans le
     compte-rendu. On pourra inclure des images (voir le guide du formalisme
-    Markdown). *Encore une fois, on indexe et on valide les réponses du fichier
+    Markdown). *Encore une fois, indexez et validez les réponses du fichier
     de compte-rendu*.
 3.  La solution exacte de cette équation s'exprime de manière analytique (je vous
     laisse la déterminer). En ajoutant du code au fichier [./src/phase\_systlin.py](./src/phase_systlin.py),
@@ -113,7 +113,16 @@ cas. Vous pouvez éventullement utiliser un environnement de travail intégré
     sous-intervalles égaux. Pour quelques valeurs de \((\alpha,\beta)\), 
     -   tracez les trajectoires solutions exactes dans le plan de phase (sur les
         champs de vecteurs déjà obtenus);
-    -   tracer sur un graphe séparé les solutions \(y(t)\) en fonction de \(t\).
+    -   tracer sur un graphe séparé les solutions \(y(t)\) en fonction de \(t\), sur
+        l'intervalle \([0,T]\) choisi.
+4.  Le fichier [./src/methodes.py](./src/methodes.py) contient une fonction qui résout le problème de
+    Cauchy ci-dessus de manière approché par la méthode d'Euler. Il peut être
+    utilisé comme un module (via la commande `import`). Dans le programme
+    [./src/phase\_systlin.py](./src/phase_systlin.py), ajouter les lignes qui permette de calculer les
+    solutions approchées par la méthode d'Euler des solutions calculées à la
+    question précédente. Comparer graphiquement les solutions exactes et
+    approchées, dans les différentes situations (\(b<0\), \(b=0\) et \(b>0\)).
+5.  
 
 # Ressources<a id="orgheadline1"></a>
 
