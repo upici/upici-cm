@@ -53,29 +53,34 @@ cours.
     &#xa0;&#xa0;&#xa0;&#xa0;└── img<br  />
     &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;├── ecran01.png<br  />
     </p>
-2.  Vous pouvez maintenant faire des tests avec les programmes
-    [<./src/hello_world.py>](./src/hello_world.py) (affichage) et [<./src/data_types.py>](src/data_types.py) (types très
-    simples). Pour cela, on peut 
-    -   soit exécuter directement les fichiers dans le terminal:
+
+[@2]. Vous pouvez maintenant faire des tests avec les programmes
+   [<./src/hello_world.py>](./src/hello_world.py) (affichage) et [<./src/data_types.py>](src/data_types.py) (types très
+   simples). Pour cela, on peut 
+
+-   soit exécuter directement les fichiers dans le terminal:
+    
+        $ ./src/hello_world.py 
+        $ ./src/data_types.py
+-   ou alors dans l'interpréteur `ipython`:
+    
+        $ ipython
+        Python 3.4.5 (default, Dec  4 2016, 23:12:44) 
+        Type "copyright", "credits" or "license" for more information.
         
-            $ ./src/hello_world.py 
-            $ ./src/data_types.py
-    -   ou alors dans l'interpréteur `ipython`:
+        IPython 5.4.1 -- An enhanced Interactive Python.
+        ?         -> Introduction and overview of IPython's features.
+        %quickref -> Quick reference.
+        help      -> Python's own help system.
+        object?   -> Details about 'object', use 'object??' for extra details.
         
-            $ ipython
-            Python 3.4.5 (default, Dec  4 2016, 23:12:44) 
-            Type "copyright", "credits" or "license" for more information.
-            
-            IPython 5.4.1 -- An enhanced Interactive Python.
-            ?         -> Introduction and overview of IPython's features.
-            %quickref -> Quick reference.
-            help      -> Python's own help system.
-            object?   -> Details about 'object', use 'object??' for extra details.
-            
-            In [1]: run ./src/hello_world.py
-            (supressed output)
-            In [2]: run ./src/data_types.py
-            (supressed output)
+        In [1]: run ./src/hello_world.py
+        (supressed output)
+        In [2]: run ./src/data_types.py
+        (supressed output)
+
+1.  Un programme avec des fonctions
+2.  Du travail à faire à partir de ce programme
 
 # Resources<a id="orgheadline3"></a>
 
