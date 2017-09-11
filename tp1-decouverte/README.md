@@ -31,60 +31,92 @@ cours.
 
 # Travail Pratique<a id="orgheadline2"></a>
 
-1.  Environnement de travail. Pour travailler, nous avons besoin d'un terminal et
-    d'un éditeur de texte qui vous soit familier. 
+<div class="org-center">
+Vous rédigerez un bref compte-rendu de travail dans le document [<./CR.md>](CR.md), en
+langage Markdown.
+</div>
+
+1.  Pour travailler, notre environnement de travail sera constitué d'un terminal
+    et d'un éditeur de texte qui vous soit familier, il s'agit de `emacs` dans
+    mon cas. Vous pouvez éventullement utiliser un environnement de travail
+    intégré (IDE) dédié qui supporte git et python.
     
       [![img](./img/ecran01.png "Voici à quoi ressemble mon écran lors de l'écriture des notes de cours.")](img/ecran01.png) 
     Si vous utilisez `emacs`, il est conseillé de configurer emacs dans le
     fichier `$HOME/.emacs`. Vous trouverez un exemple de configuration ici:
-    [<./.emacs>](.emacs). Prenez le temps de mémoriser que
+    [<./.emacs>](.emacs). 
     
-    -   Cloner le dépôt, ceci créera un repertoire csm1 dans votre répertoire
-        courant (commandes linux de base, voir
+    -   Prenez le temps de choisir votre environnement de travail en explorant les
+        différentes possibilités. Expliquer votre choix dans le compte-rendu
+        ([<./CR.md>](CR.md), accessible après la question ci-dessous).
+    -   Cloner le dépôt, ceci créera un repertoire `csm1` dans votre répertoire
+        courant. Expliquer dans le compte-rendu les difficultés que vous avez eu à
+        cette étape. (commandes linux de base, voir
         <https://doc.ubuntu-fr.org/tutoriel/console_commandes_de_base> ou
         <http://tdinfo.phelma.grenoble-inp.fr/docs/guideUnix.pdf> par exemple).
     -   Familiarisez vous avec le contenu du répertoire, qui devrait ressembler à :
-    
-    <p class="verse">
-    cours/<br  />
-    ├── README.md<br  />
-    └── tp1-decouverte<br  />
-    &#xa0;&#xa0;&#xa0;&#xa0;├── README.md<br  />
-    &#xa0;&#xa0;&#xa0;&#xa0;└── img<br  />
-    &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;├── ecran01.png<br  />
-    </p>
-
-[@2]. Vous pouvez maintenant faire des tests avec les programmes
-   [<./src/hello_world.py>](./src/hello_world.py) (affichage) et [<./src/data_types.py>](src/data_types.py) (types très
-   simples). Pour cela, on peut 
-
--   soit exécuter directement les fichiers dans le terminal:
-    
-        $ ./src/hello_world.py 
-        $ ./src/data_types.py
--   ou alors dans l'interpréteur `ipython`:
-    
-        $ ipython
-        Python 3.4.5 (default, Dec  4 2016, 23:12:44) 
-        Type "copyright", "credits" or "license" for more information.
         
-        IPython 5.4.1 -- An enhanced Interactive Python.
-        ?         -> Introduction and overview of IPython's features.
-        %quickref -> Quick reference.
-        help      -> Python's own help system.
-        object?   -> Details about 'object', use 'object??' for extra details.
+        <p class="verse">
+        cours/<br  />
+        ├── README.md<br  />
+        └── tp1-decouverte<br  />
+        &#xa0;&#xa0;&#xa0;&#xa0;├── CR.md<br  />
+        &#xa0;&#xa0;&#xa0;&#xa0;├── README.md<br  />
+        &#xa0;&#xa0;&#xa0;&#xa0;├── img<br  />
+        &#xa0;&#xa0;&#xa0;&#xa0;│  ├── ecran01.png<br  />
+        &#xa0;&#xa0;&#xa0;&#xa0;└── src<br  />
+        &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;├── data<sub>types.py</sub><br  />
+        &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;├── hello<sub>world.py</sub><br  />
+        &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;├── phase<sub>systlin.py</sub><br  />
+        </p>
         
-        In [1]: run ./src/hello_world.py
-        (supressed output)
-        In [2]: run ./src/data_types.py
-        (supressed output)
-
-1.  Pour l'équation différentielle \(y'' + by = a^2 = 0\), le programme
+        Quel est la nature (langage ?) et le rôle (texte, programme, autre) de
+        chacun des fichiers présents ?
+2.  Nous allons maintenant travailler avec les programmes
+    [<./src/hello_world.py>](./src/hello_world.py) (affichage) et [<./src/data_types.py>](src/data_types.py) (types très
+    simples). Pour cela, on peut
+    
+    -   soit exécuter directement les fichiers dans le terminal:
+        
+            $ ./src/hello_world.py
+            (suppressed output)
+            $ ./src/data_types.py
+        
+        (suppressed output)
+    -   ou alors dans l'interpréteur `ipython`:
+        
+            $ ipython
+            Python 3.4.5 (default, Dec  4 2016, 23:12:44) 
+            Type "copyright", "credits" or "license" for more information.
+            
+            IPython 5.4.1 -- An enhanced Interactive Python.
+            ?         -> Introduction and overview of IPython's features.
+            %quickref -> Quick reference.
+            help      -> Python's own help system.
+            object?   -> Details about 'object', use 'object??' for extra details.
+            
+            In [1]: run ./src/hello_world.py
+            (supressed output)
+            In [2]: run ./src/data_types.py
+            (supressed output)
+    
+    Donnez le contenu des sorties qui ont été supprimées dans ces deux exemples.
+3.  Pour l'équation différentielle \(y'' + by = a^2 = 0\), le programme
     [<./src/phase_systlin.py>](src/phase_systlin.py) permet de tracer les lignes de courant du plan de
     phase \((y, y')\). Faites varier les valeurs prises par les coefficients \(a\) et
     \(b\) et illustrez les différents comportement de l'équation: oscillateur
-    parfaitement harmonique, oscillateur amorti, et oscillateur amplifié.
-2.  Du travail à faire à partir de ce programme
+    parfaitement harmonique, oscillateur amorti, et oscillateur amplifié. Dans
+    chaque cas, on pourra inclure au compte-rendu une image (cf par exemple
+    <https://guides.github.com/features/mastering-markdown>).
+4.  La solution exacte de cette équation s'exprime de manière analytique. En
+    ajoutant du code au fichier [<./src/phase_systlin.py>](src/phase_systlin.py), pour la donnée
+    initiale \((y(0),y'(0)) = (1,0)\),
+    
+    -   tracer les trajectoires solutions exactes dans le plan de phase (sur les
+        champs de vecteurs déjà obtenus);
+    -   tracer sur un graphe séparé les solutions \(y(t)\) en fonction de \(t\).
+    
+    Rapporter les résultats de votre travail dans le fichier de compte-rendu.
 
 # Ressources<a id="orgheadline3"></a>
 
