@@ -1,5 +1,6 @@
-# emacs backups
+# emacs backups, etc
 *~
+auto/
 
 # org-mode files
 *.org
