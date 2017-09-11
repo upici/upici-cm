@@ -37,9 +37,9 @@ cas. Vous pouvez éventullement utiliser un environnement de travail intégré
 1.  Prenez le temps de choisir votre environnement de travail en explorant les
     différentes possibilités. Expliquer votre choix dans le compte-rendu ([./CR.md](./CR.md)
     accessible après la question ci-dessous).
-2.  Cloner le dépôt, ceci créera un repertoire `csm1` dans votre répertoire
-    courant. Expliquer dans le compte-rendu les difficultés que vous avez eu à
-    cette étape.
+2.  Cloner le dépôt (commande `git clone`), ceci créera un repertoire `csm1` dans
+    votre répertoire courant. Expliquer dans le compte-rendu les difficultés que
+    vous avez eu à cette étape.
     -   **git:** voir la section [Ressources](#orgheadline1)
     -   **linux:** commandes de base, voir [ce guide](https://doc.ubuntu-fr.org/tutoriel/console_commandes_de_base) ou [celui ci](http://tdinfo.phelma.grenoble-inp.fr/docs/guideUnix.pdf) par exemple.
 3.  Familiarisez vous avec le contenu du répertoire, qui devrait ressembler à :
@@ -66,8 +66,8 @@ cas. Vous pouvez éventullement utiliser un environnement de travail intégré
 
 ## Partie 2: programmes de calcul en Python, utilisation de Numpy et Matplotlib<a id="orgheadline3"></a>
 
-1.  Pour vérifier votre environnementde travail, trouvez et exécutez les
-    programmes [./src/hello<sub>world.py</sub>](./src/hello_world.py) (affichage) et [./src/data<sub>types.py</sub>](./src/data_types.py) (types
+1.  Pour vérifier votre environnement de travail, trouvez et exécutez les
+    programmes [./src/hello\_world.py](./src/hello_world.py) (affichage) et [./src/data\_types.py](./src/data_types.py) (types
     python très simples). On peut,
     
     -   soit exécuter directement les fichiers dans le terminal:
@@ -98,7 +98,7 @@ cas. Vous pouvez éventullement utiliser un environnement de travail intégré
        commit`.
 2.  On considère l'équation différentielle \(y'' + by = a^2 = 0\). Une solution \(y\)
     est aussi une solution du système linéaire d'ordre un \(Z' = - AZ\) ou \(Z = (y,
-       y')\) et \(A\) est une matrice. Le programme [./src/phase<sub>systlin.py</sub>](./src/phase_systlin.py) permet de
+       y')\) et \(A\) est une matrice. Le programme [./src/phase\_systlin.py](./src/phase_systlin.py) permet de
     tracer les lignes de courant du plan de phase \(Z=(y, y')\). Faites varier les
     valeurs prises par les coefficients \(a\) et \(b\) et illustrez les différents
     comportement de l'équation: oscillateur parfaitement harmonique, oscillateur
@@ -107,7 +107,7 @@ cas. Vous pouvez éventullement utiliser un environnement de travail intégré
     Markdown). *Encore une fois, on indexe et on valide les réponses du fichier
     de compte-rendu*.
 3.  La solution exacte de cette équation s'exprime de manière analytique (je vous
-    laisse la déterminer). En ajoutant du code au fichier [./src/phase<sub>systlin.py</sub>](./src/phase_systlin.py),
+    laisse la déterminer). En ajoutant du code au fichier [./src/phase\_systlin.py](./src/phase_systlin.py),
     calculez la solution exacte ayant la valeur initiale \(Z(0) = (y(0),y'(0)) =
        (\alpha,\beta)\), sur un intervalle de temps \([0,T]\) échantilloné en \(N>0\)
     sous-intervalles égaux. Pour quelques valeurs de \((\alpha,\beta)\), 
