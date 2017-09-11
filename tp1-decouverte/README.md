@@ -31,8 +31,8 @@ cours.
 
 # Travail Pratique<a id="orgheadline2"></a>
 
-**Vous rédigerez un bref compte-rendu de travail dans le document [./CR.md](./CR.md) en
- langage Markdown.**
+**Vous rédigerez un bref compte-rendu de travail dans le document [./CR.md](./CR.md)**, en
+ langage Markdown.
 
 1.  Pour travailler, notre environnement de travail sera constitué d'un terminal
     et d'un éditeur de texte qui vous soit familier, il s'agit de [emacs](https://www.gnu.org/software/emacs) dans
@@ -62,9 +62,9 @@ cours.
         &#xa0;&#xa0;&#xa0;&#xa0;├── img<br  />
         &#xa0;&#xa0;&#xa0;&#xa0;│  ├── ecran01.png<br  />
         &#xa0;&#xa0;&#xa0;&#xa0;└── src<br  />
-        &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;├── data<sub>types.py</sub><br  />
-        &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;├── hello<sub>world.py</sub><br  />
-        &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;├── phase<sub>systlin.py</sub><br  />
+        &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;├── data\\<sub>types.py</sub><br  />
+        &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;├── hello\\<sub>world.py</sub><br  />
+        &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;├── phase\\<sub>systlin.py</sub><br  />
         </p>
         
         Quel est la nature (langage ?) et le rôle (texte, programme, autre) de
