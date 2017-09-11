@@ -32,12 +32,12 @@ cours.
 # Travail Pratique<a id="orgheadline2"></a>
 
 1.  Environnement de travail. Pour travailler, nous avons besoin d'un terminal et
-    d'un éditeur de texte. 
+    d'un éditeur de texte qui vous soit familier. 
     
       [![img](./img/ecran01.png "Voici à quoi ressemble mon écran lors de l'écriture des notes de cours.")](img/ecran01.png) 
     Si vous utilisez `emacs`, il est conseillé de configurer emacs dans le
     fichier `$HOME/.emacs`. Vous trouverez un exemple de configuration ici:
-    [<./.emacs>](.emacs).
+    [<./.emacs>](.emacs). Prenez le temps de mémoriser que
     
     -   Cloner le dépôt, ceci créera un repertoire csm1 dans votre répertoire
         courant (commandes linux de base, voir
@@ -50,9 +50,33 @@ cours/<br  />
 ├── README.md<br  />
 └── tp1-decouverte<br  />
 &#xa0;&#xa0;&#xa0;&#xa0;├── README.md<br  />
+&#xa0;&#xa0;&#xa0;&#xa0;└── img<br  />
+&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;├── ecran01.png<br  />
 </p>
 
-1.  Premier programme
+1.  Vous pouvez maintenant faire des tests avec les programmes
+    [<./src/hello_world.py>](src/hello_world.py) (affichage) et [<./src/data_types.py>](src/data_types.py) (types très
+    simples). Pour cela, on peut 
+    -   soit exécuter directement les fichiers dans le terminal:
+
+    $ ./src/hello_world.py 
+    $ ./src/data_types.py
+
+ou alors dans l'interpréteur `ipython`:
+
+    $ ipython
+    Python 3.4.5 (default, Dec  4 2016, 23:12:44) 
+    Type "copyright", "credits" or "license" for more information.
+    
+    IPython 5.4.1 -- An enhanced Interactive Python.
+    ?         -> Introduction and overview of IPython's features.
+    %quickref -> Quick reference.
+    help      -> Python's own help system.
+    object?   -> Details about 'object', use 'object??' for extra details.
+    
+    In [1]: run ./src/hello_world.py
+    
+    In [2]: run ./src/data_types.py
 
 # Resources<a id="orgheadline3"></a>
 
