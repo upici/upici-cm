@@ -164,7 +164,9 @@ cas. Vous pouvez éventullement utiliser un environnement de travail intégré
         </tr>
         </tbody>
         </table>
-5.  
+5.  Dans le fichier [./src/methodes.py](./src/methodes.py), programmez les méthodes RK2 et RK4, que
+    vous trouverez décrite sur internet. Refaites les calcul précédents et
+    commentez les résultats.
 
 # Ressources<a id="orgheadline1"></a>
 
@@ -180,23 +182,18 @@ cas. Vous pouvez éventullement utiliser un environnement de travail intégré
 
 # Foire aux questions<a id="orgheadline5"></a>
 
--   Pourquoi utiliser Github pour les TP et projets ? Chaque projet logiciel doit
-    utiliser un système de contrôle du code. Github est un système moderne et
+-   *Pourquoi utiliser Github pour les TP et projets ?* Chaque projet logiciel
+    doit utiliser un système de contrôle du code. Github est un système moderne et
     répandu pour le développement logiciel. Il est basé sur git, un système de
     gestion de version concurrentes, de type distribué. La connaissance d'un tel
     système est un atout important sur le marché du travail.
-
--   Faut-il connaître les commandes git pour utiliser Github ? Il sera utile
+-   *Faut-il connaître les commandes git pour utiliser Github ?* Il sera utile
     d'être familier avec quelques commandes. Il existe aussi des interfaces
     graphiques (environnements de développement) pour git ou Github, si vous le
     souhaitez.
-
--   Comment est-ce que j'installe git ?  Github suppose que git et installé sur
+-   *Comment est-ce que j'installe git ?* Github suppose que git et installé sur
     votre ordinateur. Voir les tutoriels ci-dessus, qui expliquent comment
     l'installer.
-
--   Est-ce que je peux utiliser un autre système que je connais, par exemple svn,
-    butbucket ou mercurial ? Non, puisque nous utilisons Git Classromm dans ce
+-   *Est-ce que je peux utiliser un autre système que je connais, par exemple svn,
+    butbucket ou mercurial ?* Non, puisque nous utilisons Git Classromm dans ce
     cours.
-
-<https://classroom.github.com/a/FDn1tAoQ>
