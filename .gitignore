@@ -4,6 +4,9 @@
 # org-mode files
 *.org
 
+# gimp images
+*.xcf
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
