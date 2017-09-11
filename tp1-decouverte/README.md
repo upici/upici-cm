@@ -116,12 +116,54 @@ cas. Vous pouvez éventullement utiliser un environnement de travail intégré
     -   tracer sur un graphe séparé les solutions \(y(t)\) en fonction de \(t\), sur
         l'intervalle \([0,T]\) choisi.
 4.  Le fichier [./src/methodes.py](./src/methodes.py) contient une fonction qui résout le problème de
-    Cauchy ci-dessus de manière approché par la méthode d'Euler. Il peut être
+    Cauchy ci-dessus de manière approchée par la méthode d'Euler. Il peut être
     utilisé comme un module (via la commande `import`). Dans le programme
-    [./src/phase\_systlin.py](./src/phase_systlin.py), ajouter les lignes qui permette de calculer les
-    solutions approchées par la méthode d'Euler des solutions calculées à la
-    question précédente. Comparer graphiquement les solutions exactes et
-    approchées, dans les différentes situations (\(b<0\), \(b=0\) et \(b>0\)).
+    [./src/phase\_systlin.py](./src/phase_systlin.py):
+    -   Ajouter les lignes qui permette de calculer les solutions approchées par la
+        méthode d'Euler des solutions calculées à la question précédente. Comparer
+        graphiquement les solutions exactes et approchées, dans les différentes
+        situations (\(b<0\), \(b=0\) et \(b>0\)).
+    -   Calculer les erreurs absolue \(e(h)\) et raltives \(e_r(h)\) sur la solution
+        \(y(t)\) en fonction du pas de temps \(h = T/N\), en utilisant la norme du max
+        sur \([0,T]\). En supposant que l'ordre de convergence est défini par la
+        relation \(e(h) = C*h^p\), une estimation de \(p\) est obtenu entre deux pas de
+        temps consécutfifs \(h_1\) et \(h_2\) par \(p =
+             (\log(e1)-\log(e2))/(\log(h1)-\log(h2))\). Completez le tableau ci-dessous
+        pour une suite de valeurs de \(h\) et commentez le résultat:
+        
+        <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+        
+        
+        <colgroup>
+        <col  class="org-left" />
+        
+        <col  class="org-left" />
+        
+        <col  class="org-left" />
+        
+        <col  class="org-left" />
+        
+        <col  class="org-left" />
+        </colgroup>
+        <tbody>
+        <tr>
+        <td class="org-left">\(h\)</td>
+        <td class="org-left">\(e\)</td>
+        <td class="org-left">ordre \(e\)</td>
+        <td class="org-left">\(e_r\)</td>
+        <td class="org-left">ordre \(e_r\)</td>
+        </tr>
+        
+        
+        <tr>
+        <td class="org-left">&#xa0;</td>
+        <td class="org-left">&#xa0;</td>
+        <td class="org-left">&#xa0;</td>
+        <td class="org-left">&#xa0;</td>
+        <td class="org-left">&#xa0;</td>
+        </tr>
+        </tbody>
+        </table>
 5.  
 
 # Ressources<a id="orgheadline1"></a>
