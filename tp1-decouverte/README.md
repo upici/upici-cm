@@ -4,7 +4,7 @@
 <ul>
 <li><a href="#orgheadline1">1. Instructions envoyées par email</a></li>
 <li><a href="#orgheadline2">2. Travail Pratique</a></li>
-<li><a href="#orgheadline3">3. Resources</a></li>
+<li><a href="#orgheadline3">3. Ressources</a></li>
 <li><a href="#orgheadline4">4. Instructions pour les projets en groupes</a></li>
 <li><a href="#orgheadline5">5. Foire aux questions</a></li>
 </ul>
@@ -86,7 +86,7 @@ cours.
     parfaitement harmonique, oscillateur amorti, et oscillateur amplifié.
 2.  Du travail à faire à partir de ce programme
 
-# Resources<a id="orgheadline3"></a>
+# Ressources<a id="orgheadline3"></a>
 
 -   Tutoriel (fr) pour une utilisation simple de Git:
     <http://yannesposito.com/Scratch/fr/blog/2009-11-12-Git-for-n00b/>
