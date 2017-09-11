@@ -56,6 +56,10 @@ plt.ylabel("y2)")
 plt.title("Plan de phase système linéaire")
 plt.grid(True)
 
+# ========================================
+# Partie 2, question 3: code à insérer ici
+# ========================================
+
 plt.savefig("lineaire.png")
 #plt.show()
 

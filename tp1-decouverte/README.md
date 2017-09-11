@@ -2,75 +2,73 @@
 <h2>Table des matières</h2>
 <div id="text-table-of-contents">
 <ul>
-<li><a href="#orgheadline1">1. Instructions envoyées par email</a></li>
-<li><a href="#orgheadline2">2. Travail Pratique</a></li>
-<li><a href="#orgheadline3">3. Ressources</a></li>
-<li><a href="#orgheadline4">4. Instructions pour les projets en groupes</a></li>
-<li><a href="#orgheadline5">5. Foire aux questions</a></li>
+<li><a href="#orgheadline4">1. 4TMS702U, TP1 : environnement de travail et initiation à Python</a>
+<ul>
+<li><a href="#orgheadline2">1.1. Partie 1: environnement de travail, premiers pas avec git.</a></li>
+<li><a href="#orgheadline3">1.2. Partie 2: programmes de calcul en Python, utilisation de Numpy et Matplotlib</a></li>
+</ul>
+</li>
+<li><a href="#orgheadline1">2. Ressources</a></li>
+<li><a href="#orgheadline5">3. Foire aux questions</a></li>
 </ul>
 </div>
 </div>
 
 
-# Instructions envoyées par email<a id="orgheadline1"></a>
+# 4TMS702U, TP1 : environnement de travail et initiation à Python<a id="orgheadline4"></a>
 
-Nous utiliserons la plateforme Github (<https://github.com>) pour tout le travail
-de ce cours (notes, comptes-rendus, programmes, résultats, etc).
+Y. Coudière
 
-1.  Rendez-vous sur <https://github.com> et créez un compte gratuit, si vous n'en
-    avez pas encore.
+**Vous rédigerez un compte-rendu de travail dans le fichier [./CR.md](./CR.md), en utilisant
+le [formalisme Markdown](https://guides.github.com/features/mastering-markdown).**
 
-Github vous permet de créer un dépôt de fichiers pour chacun de vos projets
-(i.e. pas seulement ceux de ce cours). Mais Github n'autorise qu'un petit nombre
-de dépôts privés par utilisateur. Nous utiliserons donc *Github Classroom* qui
-vous donnera accès à un dépôt privé pour chaque projet à réalisé pendant le
-cours.
+## Partie 1: environnement de travail, premiers pas avec git.<a id="orgheadline2"></a>
 
-1.  Pour créer un tel dépôt, il vous suffit d'accepter le lien d'invitation que
-    je vous ai envoyé par email (sur l'email *prenom.nom@etu.u-bordeaux.fr*).
+Pour travailler, notre environnement de travail sera constitué d'un terminal et
+d'un éditeur de texte qui vous soit familier, il s'agit de [emacs](https://www.gnu.org/software/emacs) dans mon
+cas. Vous pouvez éventullement utiliser un environnement de travail intégré
+(IDE) dédié qui supporte git et python.
 
-# Travail Pratique<a id="orgheadline2"></a>
+[![img](./img/ecran01.png "Voici à quoi ressemble mon écran lors de l'écriture des notes de cours.")](img/ecran01.png) 
 
-**Vous rédigerez un bref compte-rendu de travail dans le document [./CR.md](./CR.md)**, en
- langage Markdown.
+*Note:* concernant `emacs`, il est conseillé de le configurer dans le fichier
+`$HOME/.emacs`. Vous trouverez un exemple de configuration ici: [./.emacs](./.emacs).
 
-1.  Pour travailler, notre environnement de travail sera constitué d'un terminal
-    et d'un éditeur de texte qui vous soit familier, il s'agit de [emacs](https://www.gnu.org/software/emacs) dans
-    mon cas. Vous pouvez éventullement utiliser un environnement de travail
-    intégré (IDE) dédié qui supporte git et python.
+1.  Prenez le temps de choisir votre environnement de travail en explorant les
+    différentes possibilités. Expliquer votre choix dans le compte-rendu ([./CR.md](./CR.md)
+    accessible après la question ci-dessous).
+2.  Cloner le dépôt, ceci créera un repertoire `csm1` dans votre répertoire
+    courant. Expliquer dans le compte-rendu les difficultés que vous avez eu à
+    cette étape.
+    -   **git:** voir la section [Ressources](#orgheadline1)
+    -   **linux:** commandes de base, voir [ce guide](https://doc.ubuntu-fr.org/tutoriel/console_commandes_de_base) ou [celui ci](http://tdinfo.phelma.grenoble-inp.fr/docs/guideUnix.pdf) par exemple.
+3.  Familiarisez vous avec le contenu du répertoire, qui devrait ressembler à :
     
-      [![img](./img/ecran01.png "Voici à quoi ressemble mon écran lors de l'écriture des notes de cours.")](img/ecran01.png) Concernant `emacs`, il est conseillé de le
-    configurer dans le fichier `$HOME/.emacs`. Vous trouverez un exemple de
-    configuration ici: [./.emacs](./.emacs)
+        cours/
+        ├── README.md
+        └── tp1-decouverte
+            ├── CR.md
+            ├── README.md
+            ├── img
+            │  ├── ecran01.png
+            └── src
+                ├── data_types.py
+                ├── hello_world.py
+                ├── phase_systlin.py
     
-    -   Prenez le temps de choisir votre environnement de travail en explorant les
-        différentes possibilités. Expliquer votre choix dans le compte-rendu
-        ([./CR.md](./CR.md) accessible après la question ci-dessous).
-    -   Cloner le dépôt, ceci créera un repertoire `csm1` dans votre répertoire
-        courant. Expliquer dans le compte-rendu les difficultés que vous avez eu à
-        cette étape. (commandes linux de base, voir
-        <https://doc.ubuntu-fr.org/tutoriel/console_commandes_de_base> ou
-        <http://tdinfo.phelma.grenoble-inp.fr/docs/guideUnix.pdf> par exemple).
-    -   Familiarisez vous avec le contenu du répertoire, qui devrait ressembler à :
-        
-        <p class="verse">
-        cours/<br  />
-        ├── README.md<br  />
-        └── tp1-decouverte<br  />
-        &#xa0;&#xa0;&#xa0;&#xa0;├── CR.md<br  />
-        &#xa0;&#xa0;&#xa0;&#xa0;├── README.md<br  />
-        &#xa0;&#xa0;&#xa0;&#xa0;├── img<br  />
-        &#xa0;&#xa0;&#xa0;&#xa0;│  ├── ecran01.png<br  />
-        &#xa0;&#xa0;&#xa0;&#xa0;└── src<br  />
-        &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;├── data\\<sub>types.py</sub><br  />
-        &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;├── hello\\<sub>world.py</sub><br  />
-        &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;├── phase\\<sub>systlin.py</sub><br  />
-        </p>
-        
-        Quel est la nature (langage ?) et le rôle (texte, programme, autre) de
-        chacun des fichiers présents ?
-2.  Nous allons maintenant travailler avec les programmes [./src/hello<sub>world.py</sub>](./src/hello_world.py)
-       (affichage) et [./src/data<sub>types.py</sub>](./src/data_types.py) (types très simples). Pour cela, on peut
+    Quel est la nature (langage ?) et le rôle (texte, programme, autre) de chacun
+    des fichiers présents ?
+4.  Après avoir écrit votre compte-rendu pour cette première partie, indexez
+    (commande `git add`) puis validez vos changements au fichier [./CR.md](./CR.md) (command
+    `git commit`). Enfin, vous pouvez poussez votre travail sur le serveur
+    distant (commande `git push`). Notez dans le compte-rendu les énoncés précis
+    des commandes que vous avez utilisées.
+
+## Partie 2: programmes de calcul en Python, utilisation de Numpy et Matplotlib<a id="orgheadline3"></a>
+
+1.  Pour vérifier votre environnementde travail, trouvez et exécutez les
+    programmes [./src/hello<sub>world.py</sub>](./src/hello_world.py) (affichage) et [./src/data<sub>types.py</sub>](./src/data_types.py) (types
+    python très simples). On peut,
     
     -   soit exécuter directement les fichiers dans le terminal:
         
@@ -95,25 +93,29 @@ cours.
             In [2]: run ./src/data_types.py
             (supressed output)
     
-    Donnez le contenu des sorties qui ont été supprimées dans ces deux exemples.
-3.  Pour l'équation différentielle \(y'' + by = a^2 = 0\), le programme
-    [./src/phase<sub>systlin.py</sub>](./src/phase_systlin.py) permet de tracer les lignes de courant du plan de
-    phase \((y, y')\). Faites varier les valeurs prises par les coefficients \(a\) et
-    \(b\) et illustrez les différents comportement de l'équation: oscillateur
-    parfaitement harmonique, oscillateur amorti, et oscillateur amplifié. Dans
-    chaque cas, on pourra inclure au compte-rendu une image (cf par exemple
-    <https://guides.github.com/features/mastering-markdown>).
-4.  La solution exacte de cette équation s'exprime de manière analytique. En
-    ajoutant du code au fichier [./src/phase<sub>systlin.py</sub>](./src/phase_systlin.py) pour la donnée initiale
-    \((y(0),y'(0)) = (1,0)\),
-    
-    -   tracer les trajectoires solutions exactes dans le plan de phase (sur les
+    Donnez le contenu des sorties qui ont été supprimées dans ces deux
+    exemples. *N'oubliez pas de validez à chaque étape*, `git add` *et* `git
+       commit`.
+2.  On considère l'équation différentielle \(y'' + by = a^2 = 0\). Une solution \(y\)
+    est aussi une solution du système linéaire d'ordre un \(Z' = - AZ\) ou \(Z = (y,
+       y')\) et \(A\) est une matrice. Le programme [./src/phase<sub>systlin.py</sub>](./src/phase_systlin.py) permet de
+    tracer les lignes de courant du plan de phase \(Z=(y, y')\). Faites varier les
+    valeurs prises par les coefficients \(a\) et \(b\) et illustrez les différents
+    comportement de l'équation: oscillateur parfaitement harmonique, oscillateur
+    amorti, et oscillateur amplifié. Explicitez les comportement dans le
+    compte-rendu. On pourra inclure des images (voir le guide du formalisme
+    Markdown). *Encore une fois, on indexe et on valide les réponses du fichier
+    de compte-rendu*.
+3.  La solution exacte de cette équation s'exprime de manière analytique (je vous
+    laisse la déterminer). En ajoutant du code au fichier [./src/phase<sub>systlin.py</sub>](./src/phase_systlin.py),
+    calculez la solution exacte ayant la valeur initiale \(Z(0) = (y(0),y'(0)) =
+       (\alpha,\beta)\), sur un intervalle de temps \([0,T]\) échantilloné en \(N>0\)
+    sous-intervalles égaux. Pour quelques valeurs de \((\alpha,\beta)\), 
+    -   tracez les trajectoires solutions exactes dans le plan de phase (sur les
         champs de vecteurs déjà obtenus);
     -   tracer sur un graphe séparé les solutions \(y(t)\) en fonction de \(t\).
-    
-    Rapporter les résultats de votre travail dans le fichier de compte-rendu.
 
-# Ressources<a id="orgheadline3"></a>
+# Ressources<a id="orgheadline1"></a>
 
 -   Tutoriel (fr) pour une utilisation simple de Git:
     <http://yannesposito.com/Scratch/fr/blog/2009-11-12-Git-for-n00b/>
@@ -123,19 +125,7 @@ cours.
 -   On trouve de nombreux tutoriels sur youtube.
 -   Tutoriel (en) sur le processus de travail Git:
     <https://www.atlassian.com/git/tutorials/comparing-workflows>
-
-# Instructions pour les projets en groupes<a id="orgheadline4"></a>
-
-1.  Pour un projet en groupe de deux personnes ou plus, un seul membre doit
-    accepter le lien d'invitation. Celui-ci doit alors aller sur le dépôt créé,
-    dans l'onglet *settings*, et ajouter les autres membres en tant que
-    *Collaborators and team*. Si deux membres d'un même groupe acceptent
-    l'invitation, deux dépôts sontcréé, alors qu'un seul est nécessaire pour
-    chaque groupe.
-
-2.  Vous pouvez ensuite écrire du code, valider des additions et correctifs et
-    les pousser sur le dépôts, et chaque membre peut alors se mettre à jour avec
-    le dépôt.
+-   Formalisme Markdown: <https://guides.github.com/features/mastering-markdown>
 
 # Foire aux questions<a id="orgheadline5"></a>
 
