@@ -127,9 +127,9 @@ cas. Vous pouvez éventullement utiliser un environnement de travail intégré
         \(y(t)\) en fonction du pas de temps \(h = T/N\), en utilisant la norme du max
         sur \([0,T]\). En supposant que l'ordre de convergence est défini par la
         relation \(e(h) = C*h^p\), une estimation de \(p\) est obtenu entre deux pas de
-        temps consécutfifs \(h_1\) et \(h_2\) par \(p =
-             (\log(e1)-\log(e2))/(\log(h1)-\log(h2))\). Completez le tableau ci-dessous
-        pour une suite de valeurs de \(h\) et commentez le résultat:
+        temps consécutfifs \(h1\) et \(h2\) par \(p = (log(e1)-log(e2)) /
+             (log(h1)-log(h2))\). Completez le tableau ci-dessous pour une suite de
+        valeurs de \(h\) et commentez le résultat:
         
         <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
         
