@@ -1,40 +1,40 @@
 
 # Table des matières
 
-1.  [Organisation pratique, évaluation](#orgce6ea75)
-    1.  [Les objectifs principaux](#org7f0fdfd)
-    2.  [La méthode pour y arriver](#org9c0e864)
-    3.  [Évaluation](#org085ce88)
-    4.  [Emploi du temps](#orgeea17a4)
-    5.  [Codes UE et groupes](#org9f72f85)
-    6.  [Tentative de déroulement](#org3a3224b)
-2.  [Outils et resources](#org6347c32)
-    1.  [Git](#org02a2919)
-    2.  [Latex, Markdown](#orgf027fe9)
-    3.  [Python](#orgaefbd3f)
-    4.  [EDP et calcul scientifique](#org93634ee)
-3.  [Quelques mots sur le calcul scientifique (dans ce cours)](#org2fbca11)
-    1.  [Introduction](#org65873d6)
-    2.  [Des problèmes spécifiques](#org9d52b87)
-    3.  [Matériel](#orge7d179c)
-    4.  [Outils informatiques](#org97922a4)
-    5.  [Mathématiques](#orgb758c9b)
-    6.  [Objectif principal](#orgd635b2f)
-    7.  [Liens](#orgda3561c)
-4.  [Python et les modules scientifiques](#orgcaca4a0)
-    1.  [Généralités](#org0132c35)
-    2.  [Python pour le calcul scientifique](#orgad9a71f)
-    3.  [Interpéteur](#orgb5a2662)
-    4.  [Disponibilité, installation](#org941dc37)
+1.  [Organisation pratique, évaluation](#org21d6162)
+    1.  [Les objectifs principaux](#orge4d6586)
+    2.  [La méthode pour y arriver](#org5db2dee)
+    3.  [Évaluation](#org707063e)
+    4.  [Emploi du temps](#orge04bc14)
+    5.  [Codes UE et groupes](#org9c40488)
+    6.  [Tentative de déroulement](#orgf22c9f5)
+2.  [Outils et resources](#orgfbdff6b)
+    1.  [Git](#org7857fa7)
+    2.  [Latex, Markdown](#org90da346)
+    3.  [Python](#org9ebe2b8)
+    4.  [EDP et calcul scientifique](#org14b45e9)
+3.  [Quelques mots sur le calcul scientifique (dans ce cours)](#org17cc17f)
+    1.  [Introduction](#org7a12db6)
+    2.  [Des problèmes spécifiques](#orga97f943)
+    3.  [Matériel](#org8f32445)
+    4.  [Outils informatiques](#org26e37d8)
+    5.  [Mathématiques](#org1eb0749)
+    6.  [Objectif principal](#orgf936121)
+    7.  [Liens](#org357a5bb)
+4.  [Python et les modules scientifiques](#org633bc93)
+    1.  [Généralités](#org707cb8e)
+    2.  [Python pour le calcul scientifique](#org12f2e4f)
+    3.  [Interpéteur](#orgcb1ece7)
+    4.  [Disponibilité, installation](#org4087549)
 
 
 
-<a id="orgce6ea75"></a>
+<a id="org21d6162"></a>
 
 # Organisation pratique, évaluation
 
 
-<a id="org7f0fdfd"></a>
+<a id="orge4d6586"></a>
 
 ## Les objectifs principaux
 
@@ -44,7 +44,7 @@
 -   Découvrir l'approximation des EDP par la pratique.
 
 
-<a id="org9c0e864"></a>
+<a id="org5db2dee"></a>
 
 ## La méthode pour y arriver
 
@@ -61,7 +61,7 @@ projet donne lieu à
 -   un exposé devant l'ensemble des étudiants.
 
 
-<a id="org085ce88"></a>
+<a id="org707063e"></a>
 
 ## Évaluation
 
@@ -70,11 +70,9 @@ projet donne lieu à
     session 1, note rapport session 2), ie règle du max
 
 
-<a id="orgeea17a4"></a>
+<a id="orge04bc14"></a>
 
 ## Emploi du temps
-
-Code de l'UE: `4TMS702U`
 
 <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 
@@ -155,7 +153,7 @@ Code de l'UE: `4TMS702U`
 
 
 <tr>
-<td class="org-right">7</td>
+<td class="org-right">7 (opt)</td>
 <td class="org-left">mardi</td>
 <td class="org-left">9:30 12:30</td>
 <td class="org-left">A28/CREMI/105</td>
@@ -164,7 +162,7 @@ Code de l'UE: `4TMS702U`
 
 
 <tr>
-<td class="org-right">CM3</td>
+<td class="org-right">CM2</td>
 <td class="org-left">mardi</td>
 <td class="org-left">9:30 12:30</td>
 <td class="org-left">A28/CREMI/105</td>
@@ -174,7 +172,7 @@ Code de l'UE: `4TMS702U`
 </table>
 
 
-<a id="org9f72f85"></a>
+<a id="org9c40488"></a>
 
 ## Codes UE et groupes
 
@@ -184,49 +182,45 @@ Code de l'UE: `4TMS702U`
 -   **Email du groupe:** ue-4tms702u@diffetu.u-bordeaux.fr
 
 
-<a id="org3a3224b"></a>
+<a id="orgf22c9f5"></a>
 
 ## Tentative de déroulement
 
-1.  CM1: intro, cadre du cours, exemples, discussion et explication des
-    sujets, planning, dates importantes, travail à fournir,
-    échanges. Cours sur git. Expliquer code résolution EDO par méthode
-    d'Euler.
+1.  CM1: intro, cadre du cours, exemples, planning, dates importantes,
+    travail à fournir, échanges. Bref cours sur git, python, markdown à
+    partir d'un exemple de code et de compte-rendu en latex, qui
+    deviendra le TP1 à terminer à la prochaine séance.
 
-2.  TP1, individuel: ouverture d'un projet git, gestion des membres,
-    s'assurer que chacun peut récupérer une copie. Rédaction d'un
+2.  TP1, individuel: gestion individuel d'un projet git. Rédaction d'un
     premier compte-rendu en Markdown. Prise en main de python: faire
     réaliser un petit code à chacun. Utilisation de ipython + editeur de
-    texte (préférence pour emacs). Pour traiter un système de 2 EDO à la
-    place d'une EDO unique, puis traver les trajectoires dans le plan de
-    phase. Répartition définitive des sujets de projet.
+    texte. Pour traiter un système de 2 EDO à la place d'une EDO unique,
+    puis tracer les trajectoires dans le plan de phase. Discussion et
+    explication des sujets, choix et organisation en groupes.
 
-3.  TP2-3: programmation du cas 1D ou simplifié. Reflexion sur les
-    difficultés supplémentaires pour le cas 'final', quelles sont les
-    questions auxquelles répondre ? Où trouver les réponses ? Comment
-    organiser le travail à venir (liste des choses à faire, qui fait
-    quoi, organisation du programme en différents fichiers ou fonctions
-    bien définies) ? Rédaction d'un rapport préliminaire.
+3.  TP2-3: Premier travail de programmation sur une situation simplifiée
+    du projet. Reflexion sur les difficultés supplémentaires pour le cas
+    'final', quelles sont les questions auxquelles répondre ? Où trouver
+    les réponses ? Comment organiser le travail à venir ? Rédaction d'un
+    rapport préliminaire en latex si possible.
 
 4.  TP4: tour de table pour que chaque groupe synthétise son rapport,
-    ses qestions, son cheminement, échange avec les autres étudiants, et
-    l'enseignant. Finaliser le rapport préliminaire. Commencer le
-    travail final de programmation.
+    ses qestions, son cheminement. Commencer le travail final de
+    programmation.
 
 5.  TP5-6: travail de programmation sur le projet, et mise au point, via
     les resources disponibles, et par échange avec l'enseignant.
 
-6.  TP7: finalisation du projet, rédaction en commun du plan du rapport
-    mise en place des éléments les plus importants, notamment les
-    résultats disponibles. Répartition du travail de rédaction et de
+6.  TP7: finalisation du projet, rédaction en commun du squelette du
+    rapport, mise en place des éléments les plus importants, notamment
+    les résultats disponibles. Répartition du travail de rédaction et de
     mise en forme. Rédaction du plan de l'exposé, nombre de diapos,
-    contenu et rôle de chaque diapo. Tout ceci doit être aussi dans le
-    dépôt git.
+    contenu et rôle de chaque diapo.
 
 7.  CM2: exposé par groupe, remise des rapports finaux.
 
 
-<a id="org6347c32"></a>
+<a id="orgfbdff6b"></a>
 
 # Outils et resources
 
@@ -234,7 +228,7 @@ Plus d'informations dans le premier TP, et plus d'informations disponible au fur
 et à mesure de l'avancement du cours.
 
 
-<a id="org02a2919"></a>
+<a id="org7857fa7"></a>
 
 ## Git
 
@@ -244,7 +238,7 @@ et à mesure de l'avancement du cours.
 -   <http://yannesposito.com/Scratch/fr/blog/2009-11-12-Git-for-n00b/>
 
 
-<a id="orgf027fe9"></a>
+<a id="org90da346"></a>
 
 ## Latex, Markdown
 
@@ -252,7 +246,7 @@ et à mesure de l'avancement du cours.
 -   Le langage Latex, <https://www.latex-project.org>
 
 
-<a id="orgaefbd3f"></a>
+<a id="org9ebe2b8"></a>
 
 ## Python
 
@@ -262,7 +256,7 @@ et à mesure de l'avancement du cours.
 -   Il existe de nombreuses autres resources pour python.
 
 
-<a id="org93634ee"></a>
+<a id="org14b45e9"></a>
 
 ## EDP et calcul scientifique
 
@@ -303,12 +297,12 @@ Vous avez accès à la bibliothèque de math et info (bâtiment A33).
 ### Lien web
 
 
-<a id="org2fbca11"></a>
+<a id="org17cc17f"></a>
 
 # Quelques mots sur le calcul scientifique (dans ce cours)
 
 
-<a id="org65873d6"></a>
+<a id="org7a12db6"></a>
 
 ## Introduction
 
@@ -335,7 +329,7 @@ Quelques questions importantes à propos du calcul scientifique:
     git, svn&#x2026; &#x2013;, tests, documentation&#x2026;) ?
 
 
-<a id="org9d52b87"></a>
+<a id="orga97f943"></a>
 
 ## Des problèmes spécifiques
 
@@ -357,7 +351,7 @@ qui permettent de calculer des solutions approchées d'équations aux dérivées
 partielles.
 
 
-<a id="orge7d179c"></a>
+<a id="org8f32445"></a>
 
 ## Matériel
 
@@ -371,7 +365,7 @@ partielles.
     semestre de printemps.
 
 
-<a id="org97922a4"></a>
+<a id="org26e37d8"></a>
 
 ## Outils informatiques
 
@@ -389,7 +383,7 @@ partielles.
     bibliothèques&#x2026;
 
 
-<a id="orgb758c9b"></a>
+<a id="org1eb0749"></a>
 
 ## Mathématiques
 
@@ -402,7 +396,7 @@ partielles.
 -   Interpolation, approximation, intégration numérique.
 
 
-<a id="orgd635b2f"></a>
+<a id="orgf936121"></a>
 
 ## Objectif principal
 
@@ -413,7 +407,7 @@ des problèmes numériquement complexe sur des ordinateurs dédiés au calcul,
 Ça demande l'utilisation d'outils informatique et numériques spécifiques.
 
 
-<a id="orgda3561c"></a>
+<a id="org357a5bb"></a>
 
 ## Liens
 
@@ -432,12 +426,12 @@ Liste de quelques liens.
     scientifique.
 
 
-<a id="orgcaca4a0"></a>
+<a id="org633bc93"></a>
 
 # Python et les modules scientifiques
 
 
-<a id="org0132c35"></a>
+<a id="org707cb8e"></a>
 
 ## Généralités
 
@@ -451,7 +445,7 @@ Liste de quelques liens.
 -   **Inconvénients:** exécution décentralisée, lente, démarrage peut être difficile
 
 
-<a id="orgad9a71f"></a>
+<a id="org12f2e4f"></a>
 
 ## Python pour le calcul scientifique
 
@@ -478,7 +472,7 @@ procédurale, et sans utiliser de notions de programmation orientée
 objet.
 
 
-<a id="orgb5a2662"></a>
+<a id="orgcb1ece7"></a>
 
 ## Interpéteur
 
@@ -492,7 +486,7 @@ objet.
     serveur jupyter, édition hors-ligne délicate.
 
 
-<a id="org941dc37"></a>
+<a id="org4087549"></a>
 
 ## Disponibilité, installation
 
