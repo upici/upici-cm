@@ -1,21 +1,30 @@
 
 # Table des matières
 
-1.  [4TMS702U, TP1 séance 1: environnement de travail et initiation à Python](#orgc9ed809)
-    1.  [Partie 1: environnement de travail, premiers pas avec git.](#org3e59771)
-    2.  [Partie 2: programmes de calcul en Python, utilisation de Numpy et Matplotlib](#org176cbf7)
+1.  [4TMS702U, TP1 séance 1: environnement de travail et initiation à Python](#org9412c42)
+    1.  [Partie 1: environnement de travail, premiers pas avec git.](#org777e69a)
+    2.  [Partie 2: programmes de calcul en Python, utilisation de Numpy et Matplotlib](#org8476dc7)
 
 
 
-<a id="orgc9ed809"></a>
+<a id="org9412c42"></a>
 
 # 4TMS702U, TP1 séance 1: environnement de travail et initiation à Python
 
-**Vous rédigerez un compte-rendu de travail dans le fichier [./CR.md](./CR.md), en utilisant
-le [formalisme Markdown](https://guides.github.com/features/mastering-markdown).**
+<span style='color:green'>Vert
+
+-   Renvoyez moi le fichier CR.md par email ([yves.coudiere@u-bordeaux.fr](mailto:yves.coudiere@u-bordeaux.fr))
+    aujourd'hui, mardi 11 septembre 2018
+-   Indiquer [TP1.1] avec vos noms et prénom dans le sujet du mail
+-   Ne pas oublier de joindre aussi les fichiers (images par exemple) vers
+    lesquelles le fichier .md pointe éventuellement.
+
+</span>
+
+**Ce compte-rendu ([./CR.md](./CR.md)) utilise le [formalisme Markdown](https://guides.github.com/features/mastering-markdown).**
 
 
-<a id="org3e59771"></a>
+<a id="org777e69a"></a>
 
 ## Partie 1: environnement de travail, premiers pas avec git.
 
@@ -56,7 +65,7 @@ de travail intégré (IDE) dédié qui supporte git et python.
     des fichiers présents ?
 
 
-<a id="org176cbf7"></a>
+<a id="org8476dc7"></a>
 
 ## Partie 2: programmes de calcul en Python, utilisation de Numpy et Matplotlib
 
@@ -81,5 +90,6 @@ de travail intégré (IDE) dédié qui supporte git et python.
     méthode.
 6.  On souhaite utiliser la méthode y\_{n+1} = y\_n + 0.5\*h\*( f(t\_n,y\_n) +
     f(t\_{n+1},y\_{n+1}). Il fait donc résoudre une équation non
-    linéaire. Pour cela, on va utiliser la méthode itérative...
+    linéaire. Pour cela, on va utiliser la méthode de Newton telle
+    qu'elle existe dans le module `scipy`.
 
