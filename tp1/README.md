@@ -1,17 +1,17 @@
 
 # Table des matières
 
-1.  [4TMS702U, TP1 séance 1: environnement de travail et initiation à Python](#org9412c42)
-    1.  [Partie 1: environnement de travail, premiers pas avec git.](#org777e69a)
-    2.  [Partie 2: programmes de calcul en Python, utilisation de Numpy et Matplotlib](#org8476dc7)
+1.  [4TMS702U, TP1 séance 1: environnement de travail et initiation à Python](#orga24fd71)
+    1.  [Partie 1: environnement de travail, premiers pas avec git.](#org1ffb8bf)
+    2.  [Partie 2: programmes de calcul en Python, utilisation de Numpy et Matplotlib](#orgb50669a)
 
 
 
-<a id="org9412c42"></a>
+<a id="orga24fd71"></a>
 
 # 4TMS702U, TP1 séance 1: environnement de travail et initiation à Python
 
-<span style='color:green'>Vert
+\`\`\`diff
 
 -   Renvoyez moi le fichier CR.md par email ([yves.coudiere@u-bordeaux.fr](mailto:yves.coudiere@u-bordeaux.fr))
     aujourd'hui, mardi 11 septembre 2018
@@ -19,12 +19,12 @@
 -   Ne pas oublier de joindre aussi les fichiers (images par exemple) vers
     lesquelles le fichier .md pointe éventuellement.
 
-</span>
+\`\`\`
 
 **Ce compte-rendu ([./CR.md](./CR.md)) utilise le [formalisme Markdown](https://guides.github.com/features/mastering-markdown).**
 
 
-<a id="org777e69a"></a>
+<a id="org1ffb8bf"></a>
 
 ## Partie 1: environnement de travail, premiers pas avec git.
 
@@ -65,7 +65,7 @@ de travail intégré (IDE) dédié qui supporte git et python.
     des fichiers présents ?
 
 
-<a id="org8476dc7"></a>
+<a id="orgb50669a"></a>
 
 ## Partie 2: programmes de calcul en Python, utilisation de Numpy et Matplotlib
 
