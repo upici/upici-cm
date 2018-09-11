@@ -1,13 +1,13 @@
 
 # Table des matières
 
-1.  [4TMS702U, TP1 séance 1: environnement de travail et initiation à Python](#orgb4c5c88)
-    1.  [Partie 1: environnement de travail, premiers pas avec git.](#org8592cb8)
-    2.  [Partie 2: programmes de calcul en Python, utilisation de Numpy et Matplotlib](#org785019d)
+1.  [4TMS702U, TP1 séance 1: environnement de travail et initiation à Python](#orgf5fc7fd)
+    1.  [Partie 1: environnement de travail, premiers pas avec git.](#org7e21e60)
+    2.  [Partie 2: programmes de calcul en Python, utilisation de Numpy et Matplotlib](#orgfde3294)
 
 
 
-<a id="orgb4c5c88"></a>
+<a id="orgf5fc7fd"></a>
 
 # 4TMS702U, TP1 séance 1: environnement de travail et initiation à Python
 
@@ -18,7 +18,7 @@
     - Ne pas oublier de joindre aussi les fichiers (images par exemple) vers lesquelles le fichier .md pointe éventuellement.
 
 
-<a id="org8592cb8"></a>
+<a id="org7e21e60"></a>
 
 ## Partie 1: environnement de travail, premiers pas avec git.
 
@@ -59,7 +59,7 @@ de travail intégré (IDE) dédié qui supporte git et python.
     des fichiers présents ?
 
 
-<a id="org785019d"></a>
+<a id="orgfde3294"></a>
 
 ## Partie 2: programmes de calcul en Python, utilisation de Numpy et Matplotlib
 
@@ -78,12 +78,17 @@ de travail intégré (IDE) dédié qui supporte git et python.
     d'Euler: y\_{n+1} = y\_n + h\*f(t\_n+0.5\*h,y\_n+0.5\*f(y\_n)). Tracer les
     graphes de convergence des 2 méthodes sur la même figure (en échelle
     logarithmique). Quel commentaire peut-on faire ?
-4.  Un problème plus raide&#x2026;
-5.  Reprendre l'analyse avec la méthode y\_{n+1} = y\_{n-1} +
+4.  Reprendre l'analyse avec la méthode y\_{n+1} = y\_{n-1} +
     2\*h\*f(t\_n,y\_n), pour laquelle on calculera y\_1 par la seconde
     méthode.
-6.  On souhaite utiliser la méthode y\_{n+1} = y\_n + 0.5\*h\*( f(t\_n,y\_n) +
+5.  On souhaite utiliser la méthode y\_{n+1} = y\_n + 0.5\*h\*( f(t\_n,y\_n) +
     f(t\_{n+1},y\_{n+1}). Il fait donc résoudre une équation non
-    linéaire. Pour cela, on va utiliser la méthode de Newton telle
-    qu'elle existe dans le module `scipy`.
+    linéaire. Pour cela, on peut
+    -   utiliser la méthode de Newton telle qu'elle existe dans le module
+        `scipy.optimize`;
+    -   calculer y\_{n+1} comme la limite de la suite itérative y\_{n+1,p+1}
+        = y\_n + 0.5\*h\*( f(t\_n,y\_n) + f(t\_{n+1},y\_{n+1,p}) avec par exemple
+        y\_{n+1,0} calculé par la méthode d'Euler explicite ou bien
+        y\_{n+1,0}=y\_n.
+6.  Un problème plus raide&#x2026;
 
