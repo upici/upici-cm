@@ -11,15 +11,11 @@
 
 # 4TMS702U, TP1 séance 1: environnement de travail et initiation à Python
 
-\`\`\`diff
-
--   Renvoyez moi le fichier CR.md par email ([yves.coudiere@u-bordeaux.fr](mailto:yves.coudiere@u-bordeaux.fr))
-    aujourd'hui, mardi 11 septembre 2018
--   Indiquer [TP1.1] avec vos noms et prénom dans le sujet du mail
--   Ne pas oublier de joindre aussi les fichiers (images par exemple) vers
-    lesquelles le fichier .md pointe éventuellement.
-
-\`\`\`
+```diff
+- Renvoyez moi le fichier CR.md par email ([yves.coudiere@u-bordeaux.fr](mailto:yves.coudiere@u-bordeaux.fr)) aujourd'hui, mardi 11 septembre 2018
+- Indiquer [TP1.1] avec vos noms et prénom dans le sujet du mail
+- Ne pas oublier de joindre aussi les fichiers (images par exemple) vers lesquelles le fichier .md pointe éventuellement.
+```
 
 **Ce compte-rendu ([./CR.md](./CR.md)) utilise le [formalisme Markdown](https://guides.github.com/features/mastering-markdown).**
 
