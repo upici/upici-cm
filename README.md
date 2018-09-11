@@ -233,9 +233,9 @@ et à mesure de l'avancement du cours.
 ## Git
 
 -   L'outil Git, par l'intermédiaire de la plateforme, <http://github.com>
+-   <http://yannesposito.com/Scratch/fr/blog/2009-11-12-Git-for-n00b/>
 -   <https://www.miximum.fr/blog/enfin-comprendre-git/>
 -   <https://openclassrooms.com/courses/gerez-vos-codes-source-avec-git>
--   <http://yannesposito.com/Scratch/fr/blog/2009-11-12-Git-for-n00b/>
 
 
 <a id="org90da346"></a>
