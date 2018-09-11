@@ -1,26 +1,24 @@
 
 # Table des matières
 
-1.  [4TMS702U, TP1 séance 1: environnement de travail et initiation à Python](#orga24fd71)
-    1.  [Partie 1: environnement de travail, premiers pas avec git.](#org1ffb8bf)
-    2.  [Partie 2: programmes de calcul en Python, utilisation de Numpy et Matplotlib](#orgb50669a)
+1.  [4TMS702U, TP1 séance 1: environnement de travail et initiation à Python](#orgb4c5c88)
+    1.  [Partie 1: environnement de travail, premiers pas avec git.](#org8592cb8)
+    2.  [Partie 2: programmes de calcul en Python, utilisation de Numpy et Matplotlib](#org785019d)
 
 
 
-<a id="orga24fd71"></a>
+<a id="orgb4c5c88"></a>
 
 # 4TMS702U, TP1 séance 1: environnement de travail et initiation à Python
 
-```diff
-- Renvoyez moi le fichier CR.md par email ([yves.coudiere@u-bordeaux.fr](mailto:yves.coudiere@u-bordeaux.fr)) aujourd'hui, mardi 11 septembre 2018
-- Indiquer [TP1.1] avec vos noms et prénom dans le sujet du mail
-- Ne pas oublier de joindre aussi les fichiers (images par exemple) vers lesquelles le fichier .md pointe éventuellement.
-```
+**Le compte-rendu ([./CR.md](./CR.md)) utilise le [formalisme Markdown](https://guides.github.com/features/mastering-markdown) de Github.**
 
-**Ce compte-rendu ([./CR.md](./CR.md)) utilise le [formalisme Markdown](https://guides.github.com/features/mastering-markdown).**
+    - Renvoyez moi le fichier CR.md par email (yves.coudiere@u-bordeaux.fr) aujourd'hui, mardi 11 septembre 2018.
+    - Indiquer [TP1.1] avec vos noms et prénom dans le sujet du mail
+    - Ne pas oublier de joindre aussi les fichiers (images par exemple) vers lesquelles le fichier .md pointe éventuellement.
 
 
-<a id="org1ffb8bf"></a>
+<a id="org8592cb8"></a>
 
 ## Partie 1: environnement de travail, premiers pas avec git.
 
@@ -61,7 +59,7 @@ de travail intégré (IDE) dédié qui supporte git et python.
     des fichiers présents ?
 
 
-<a id="orgb50669a"></a>
+<a id="org785019d"></a>
 
 ## Partie 2: programmes de calcul en Python, utilisation de Numpy et Matplotlib
 
