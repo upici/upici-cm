@@ -16,7 +16,7 @@ def euler_explicite(t0,h,N, y0,f):
 
     # Alloue un tableau de la taille de t, initialisé à 0. Il servira à
     # stocker la solution aux instants t0+i*h.
-    y = 0.*t
+    y = np.zeros((N+1))
 
     # Donnée initiale, la valeur [0] du tableau y
     y[0] = y0
