@@ -1,40 +1,40 @@
 
 # Table des matières
 
-1.  [Organisation pratique, évaluation](#org21d6162)
-    1.  [Les objectifs principaux](#orge4d6586)
-    2.  [La méthode pour y arriver](#org5db2dee)
-    3.  [Évaluation](#org707063e)
-    4.  [Emploi du temps](#orge04bc14)
-    5.  [Codes UE et groupes](#org9c40488)
-    6.  [Tentative de déroulement](#orgf22c9f5)
-2.  [Outils et resources](#orgfbdff6b)
-    1.  [Git](#org7857fa7)
-    2.  [Latex, Markdown](#org90da346)
-    3.  [Python](#org9ebe2b8)
-    4.  [EDP et calcul scientifique](#org14b45e9)
-3.  [Quelques mots sur le calcul scientifique (dans ce cours)](#org17cc17f)
-    1.  [Introduction](#org7a12db6)
-    2.  [Des problèmes spécifiques](#orga97f943)
-    3.  [Matériel](#org8f32445)
-    4.  [Outils informatiques](#org26e37d8)
-    5.  [Mathématiques](#org1eb0749)
-    6.  [Objectif principal](#orgf936121)
-    7.  [Liens](#org357a5bb)
-4.  [Python et les modules scientifiques](#org633bc93)
-    1.  [Généralités](#org707cb8e)
-    2.  [Python pour le calcul scientifique](#org12f2e4f)
-    3.  [Interpéteur](#orgcb1ece7)
-    4.  [Disponibilité, installation](#org4087549)
+1.  [Organisation pratique, évaluation](#orgab9b151)
+    1.  [Les objectifs principaux](#orgdef7fa1)
+    2.  [La méthode pour y arriver](#orgcf738b3)
+    3.  [Évaluation](#org833d20a)
+    4.  [Emploi du temps 8h de CM + 16h de TDM](#orgd72120e)
+    5.  [Codes UE et groupes](#org34fc605)
+    6.  [Tentative de déroulement](#org24d03b4)
+2.  [Outils et resources](#orgcf647be)
+    1.  [Git](#orgd21b148)
+    2.  [Latex, Markdown](#org0eb7514)
+    3.  [Python](#orgb7a953a)
+    4.  [EDP et calcul scientifique](#org60316a1)
+3.  [Quelques mots sur le calcul scientifique (dans ce cours)](#org5e8a30a)
+    1.  [Introduction](#org22ca822)
+    2.  [Des problèmes spécifiques](#orge62d282)
+    3.  [Matériel](#org99ef242)
+    4.  [Outils informatiques](#orgcd97403)
+    5.  [Mathématiques](#org94717c8)
+    6.  [Objectif principal](#org38796de)
+    7.  [Liens](#org97a0b6c)
+4.  [Python et les modules scientifiques](#orgf922854)
+    1.  [Généralités](#orgbb840eb)
+    2.  [Python pour le calcul scientifique](#orgc6d7836)
+    3.  [Interpéteur](#org8961500)
+    4.  [Disponibilité, installation](#org89c1a3b)
 
 
 
-<a id="org21d6162"></a>
+<a id="orgab9b151"></a>
 
 # Organisation pratique, évaluation
 
 
-<a id="orge4d6586"></a>
+<a id="orgdef7fa1"></a>
 
 ## Les objectifs principaux
 
@@ -44,7 +44,7 @@
 -   Découvrir l'approximation des EDP par la pratique.
 
 
-<a id="org5db2dee"></a>
+<a id="orgcf738b3"></a>
 
 ## La méthode pour y arriver
 
@@ -61,7 +61,7 @@ projet donne lieu à
 -   un exposé devant l'ensemble des étudiants.
 
 
-<a id="org707063e"></a>
+<a id="org833d20a"></a>
 
 ## Évaluation
 
@@ -70,15 +70,17 @@ projet donne lieu à
     session 1, note rapport session 2), ie règle du max
 
 
-<a id="orge04bc14"></a>
+<a id="orgd72120e"></a>
 
-## Emploi du temps
+## Emploi du temps 8h de CM + 16h de TDM
 
 <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 
 
 <colgroup>
-<col  class="org-right" />
+<col  class="org-left" />
+
+<col  class="org-left" />
 
 <col  class="org-left" />
 
@@ -88,91 +90,122 @@ projet donne lieu à
 
 <col  class="org-left" />
 </colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">CM</th>
+<th scope="col" class="org-left">TDM</th>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">&#xa0;</th>
+</tr>
+</thead>
+
 <tbody>
 <tr>
-<td class="org-right">CM1</td>
+<td class="org-left">3h</td>
+<td class="org-left">&#xa0;</td>
 <td class="org-left">mardi 11/09/2018</td>
 <td class="org-left">9:30 12:30</td>
 <td class="org-left">A28/CREMI/105</td>
-<td class="org-left">Introduction à git, latex, python</td>
+<td class="org-left">Introduction à git, python</td>
 </tr>
 
 
 <tr>
-<td class="org-right">1</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">2h40</td>
 <td class="org-left">mardi 18/09/2018</td>
-<td class="org-left">9:30 12:30</td>
+<td class="org-left">9:30-10h50, 11h-12h20</td>
 <td class="org-left">A28/CREMI/105</td>
 <td class="org-left">TP1 individuel</td>
 </tr>
 
 
 <tr>
-<td class="org-right">2</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">2h40</td>
 <td class="org-left">mardi 02/10/2018</td>
-<td class="org-left">9:30 12:30</td>
+<td class="org-left">9:30-10h50, 11h-12h20</td>
 <td class="org-left">A28/CREMI/105</td>
 <td class="org-left">Début travail en groupes</td>
 </tr>
 
 
 <tr>
-<td class="org-right">3</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">2h40</td>
 <td class="org-left">mardi 09/10/2018</td>
-<td class="org-left">9:30 12:30</td>
+<td class="org-left">9:30-10h50, 11h-12h20</td>
 <td class="org-left">A28/CREMI/105</td>
 <td class="org-left">&#xa0;</td>
 </tr>
 
 
 <tr>
-<td class="org-right">4</td>
+<td class="org-left">2h</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">Complément python, latex</td>
+</tr>
+
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">2h40</td>
 <td class="org-left">mardi 16/10/2018</td>
-<td class="org-left">9:30 12:30</td>
+<td class="org-left">9:30-10h50, 11h-12h20</td>
 <td class="org-left">A28/CREMI/105</td>
-<td class="org-left">Tour de table mise en commun</td>
+<td class="org-left">&#xa0;</td>
 </tr>
 
 
 <tr>
-<td class="org-right">5</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">2h40</td>
 <td class="org-left">mardi 06/11/2018</td>
-<td class="org-left">9:30 12:30</td>
+<td class="org-left">9:30-10h50, 11h-12h20</td>
 <td class="org-left">A28/CREMI/105</td>
 <td class="org-left">&#xa0;</td>
 </tr>
 
 
 <tr>
-<td class="org-right">6</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">2h40</td>
 <td class="org-left">mardi 13/11/2018</td>
-<td class="org-left">9:30 12:30</td>
+<td class="org-left">9:30-10h50, 11h-12h20</td>
 <td class="org-left">A28/CREMI/105</td>
 <td class="org-left">&#xa0;</td>
 </tr>
 
 
 <tr>
-<td class="org-right">7 (opt)</td>
-<td class="org-left">mardi</td>
-<td class="org-left">9:30 12:30</td>
-<td class="org-left">A28/CREMI/105</td>
+<td class="org-left">3h</td>
 <td class="org-left">&#xa0;</td>
-</tr>
-
-
-<tr>
-<td class="org-right">CM2</td>
-<td class="org-left">mardi</td>
-<td class="org-left">9:30 12:30</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
 <td class="org-left">A28/CREMI/105</td>
 <td class="org-left">Présentation finale des projets</td>
+</tr>
+</tbody>
+
+<tbody>
+<tr>
+<td class="org-left">8h</td>
+<td class="org-left">16h</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
 </tr>
 </tbody>
 </table>
 
 
-<a id="org9c40488"></a>
+<a id="org34fc605"></a>
 
 ## Codes UE et groupes
 
@@ -182,7 +215,7 @@ projet donne lieu à
 -   **Email du groupe:** ue-4tms702u@diffetu.u-bordeaux.fr
 
 
-<a id="orgf22c9f5"></a>
+<a id="org24d03b4"></a>
 
 ## Tentative de déroulement
 
@@ -220,7 +253,7 @@ projet donne lieu à
 7.  CM2: exposé par groupe, remise des rapports finaux.
 
 
-<a id="orgfbdff6b"></a>
+<a id="orgcf647be"></a>
 
 # Outils et resources
 
@@ -228,17 +261,17 @@ Plus d'informations dans le premier TP, et plus d'informations disponible au fur
 et à mesure de l'avancement du cours.
 
 
-<a id="org7857fa7"></a>
+<a id="orgd21b148"></a>
 
 ## Git
 
 -   L'outil Git, par l'intermédiaire de la plateforme, <http://github.com>
--   <http://yannesposito.com/Scratch/fr/blog/2009-11-12-Git-for-n00b/>
 -   <https://www.miximum.fr/blog/enfin-comprendre-git/>
 -   <https://openclassrooms.com/courses/gerez-vos-codes-source-avec-git>
+-   <http://yannesposito.com/Scratch/fr/blog/2009-11-12-Git-for-n00b/>
 
 
-<a id="org90da346"></a>
+<a id="org0eb7514"></a>
 
 ## Latex, Markdown
 
@@ -246,7 +279,7 @@ et à mesure de l'avancement du cours.
 -   Le langage Latex, <https://www.latex-project.org>
 
 
-<a id="org9ebe2b8"></a>
+<a id="orgb7a953a"></a>
 
 ## Python
 
@@ -256,7 +289,7 @@ et à mesure de l'avancement du cours.
 -   Il existe de nombreuses autres resources pour python.
 
 
-<a id="org14b45e9"></a>
+<a id="org60316a1"></a>
 
 ## EDP et calcul scientifique
 
@@ -297,12 +330,12 @@ Vous avez accès à la bibliothèque de math et info (bâtiment A33).
 ### Lien web
 
 
-<a id="org17cc17f"></a>
+<a id="org5e8a30a"></a>
 
 # Quelques mots sur le calcul scientifique (dans ce cours)
 
 
-<a id="org7a12db6"></a>
+<a id="org22ca822"></a>
 
 ## Introduction
 
@@ -329,7 +362,7 @@ Quelques questions importantes à propos du calcul scientifique:
     git, svn&#x2026; &#x2013;, tests, documentation&#x2026;) ?
 
 
-<a id="orga97f943"></a>
+<a id="orge62d282"></a>
 
 ## Des problèmes spécifiques
 
@@ -351,7 +384,7 @@ qui permettent de calculer des solutions approchées d'équations aux dérivées
 partielles.
 
 
-<a id="org8f32445"></a>
+<a id="org99ef242"></a>
 
 ## Matériel
 
@@ -365,7 +398,7 @@ partielles.
     semestre de printemps.
 
 
-<a id="org26e37d8"></a>
+<a id="orgcd97403"></a>
 
 ## Outils informatiques
 
@@ -383,7 +416,7 @@ partielles.
     bibliothèques&#x2026;
 
 
-<a id="org1eb0749"></a>
+<a id="org94717c8"></a>
 
 ## Mathématiques
 
@@ -396,7 +429,7 @@ partielles.
 -   Interpolation, approximation, intégration numérique.
 
 
-<a id="orgf936121"></a>
+<a id="org38796de"></a>
 
 ## Objectif principal
 
@@ -407,7 +440,7 @@ des problèmes numériquement complexe sur des ordinateurs dédiés au calcul,
 Ça demande l'utilisation d'outils informatique et numériques spécifiques.
 
 
-<a id="org357a5bb"></a>
+<a id="org97a0b6c"></a>
 
 ## Liens
 
@@ -426,12 +459,12 @@ Liste de quelques liens.
     scientifique.
 
 
-<a id="org633bc93"></a>
+<a id="orgf922854"></a>
 
 # Python et les modules scientifiques
 
 
-<a id="org707cb8e"></a>
+<a id="orgbb840eb"></a>
 
 ## Généralités
 
@@ -445,7 +478,7 @@ Liste de quelques liens.
 -   **Inconvénients:** exécution décentralisée, lente, démarrage peut être difficile
 
 
-<a id="org12f2e4f"></a>
+<a id="orgc6d7836"></a>
 
 ## Python pour le calcul scientifique
 
@@ -472,7 +505,7 @@ procédurale, et sans utiliser de notions de programmation orientée
 objet.
 
 
-<a id="orgcb1ece7"></a>
+<a id="org8961500"></a>
 
 ## Interpéteur
 
@@ -486,7 +519,7 @@ objet.
     serveur jupyter, édition hors-ligne délicate.
 
 
-<a id="org4087549"></a>
+<a id="org89c1a3b"></a>
 
 ## Disponibilité, installation
 
