@@ -26,7 +26,7 @@ plt.xlabel('t')
 plt.ylabel('y')
 plt.title("Méthode d'Euler explicite")
 plt.legend()
-plt.show()
+plt.savefig('eq_affine.png')
 
 # Écriture de l'erreur en fonction de h
 print("{0} | {1}".format(h,e1))
