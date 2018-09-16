@@ -1,24 +1,37 @@
 
 # Table des matières
 
-1.  [4TMS702U, TP1 séance 1: environnement de travail et initiation à Python](#orgf5fc7fd)
-    1.  [Partie 1: environnement de travail, premiers pas avec git.](#org7e21e60)
-    2.  [Partie 2: programmes de calcul en Python, utilisation de Numpy et Matplotlib](#orgfde3294)
+1.  [4TMS702U, TP1: environnement de travail et initiation à Python](#org3d62943)
+    1.  [Séance 1, mardi 11 septembre 2018](#org2089fb3)
+    2.  [Partie 1: environnement de travail, premiers pas avec git.](#org3761bf1)
+    3.  [Partie 2: programmes de calcul en Python, utilisation de Numpy et Matplotlib](#org877bf36)
 
 
 
-<a id="orgf5fc7fd"></a>
+<a id="org3d62943"></a>
 
-# 4TMS702U, TP1 séance 1: environnement de travail et initiation à Python
+# 4TMS702U, TP1: environnement de travail et initiation à Python
 
 **Le compte-rendu ([./CR.md](./CR.md)) utilise le [formalisme Markdown](https://guides.github.com/features/mastering-markdown) de Github.**
 
-    - Renvoyez moi le fichier CR.md par email (yves.coudiere@u-bordeaux.fr) aujourd'hui, mardi 11 septembre 2018.
-    - Indiquer [TP1.1] avec vos noms et prénom dans le sujet du mail
-    - Ne pas oublier de joindre aussi les fichiers (images par exemple) vers lesquelles le fichier .md pointe éventuellement.
+
+<a id="org2089fb3"></a>
+
+## Séance 1, mardi 11 septembre 2018
+
+-   Renvoyez moi le fichier CR.md par email (yves.coudiere@u-bordeaux.fr)
+    aujourd'hui, mardi 11 septembre 2018. L'objectif est d'aller jusqu'à
+    la fin de la question 1 de la partie 2.
+-   Indiquer [TP1.1] avec vos noms et prénom dans le sujet du mail
+-   Ne pas oublier de joindre aussi les fichiers (images par exemple) vers
+    lesquelles le fichier .md pointe éventuellement.
+
+\*Il n'est pas nécessaire d'aller au bout des questions, les dernières
+questions ne sont là que pour les personnes qui sont déjà très à l'aise
+en programmation.\*
 
 
-<a id="org7e21e60"></a>
+<a id="org3761bf1"></a>
 
 ## Partie 1: environnement de travail, premiers pas avec git.
 
@@ -59,7 +72,7 @@ de travail intégré (IDE) dédié qui supporte git et python.
     des fichiers présents ?
 
 
-<a id="orgfde3294"></a>
+<a id="org877bf36"></a>
 
 ## Partie 2: programmes de calcul en Python, utilisation de Numpy et Matplotlib
 
@@ -74,21 +87,27 @@ de travail intégré (IDE) dédié qui supporte git et python.
 2.  Reproduire cette étude pour l'équation y'(t) = 1-y^2, dont on sait
     calculer une solution exacte. On prendra t dans [0,1] et y(0) = 0
     puis y(0)=2.
-3.  Reprendre l'analyse avec la méthode suivante à la place de la méthode
-    d'Euler: y\_{n+1} = y\_n + h\*f(t\_n+0.5\*h,y\_n+0.5\*f(y\_n)). Tracer les
-    graphes de convergence des 2 méthodes sur la même figure (en échelle
+3.  Reprendre l'analyse avec la méthode suivante (que l'on appelle
+    méthode de Runge-Kutta 2 &#x2013; RK2) à la place de la méthode d'Euler:
+    y\_{n+1} = y\_n + h\*f(t\_n+0.5\*h,y\_n+0.5\*f(y\_n)). Tracer les graphes de
+    convergence des 2 méthodes sur la même figure (en échelle
     logarithmique). Quel commentaire peut-on faire ?
 4.  Reprendre l'analyse avec la méthode y\_{n+1} = y\_{n-1} +
-    2\*h\*f(t\_n,y\_n), pour laquelle on calculera y\_1 par la seconde
-    méthode.
+    2\*h\*f(t\_n,y\_n), appelée méthode du point lilieu ou méthode
+    saute-mouton. On calculera y\_1 par la méthode RK2.
 5.  On souhaite utiliser la méthode y\_{n+1} = y\_n + 0.5\*h\*( f(t\_n,y\_n) +
-    f(t\_{n+1},y\_{n+1}). Il fait donc résoudre une équation non
-    linéaire. Pour cela, on peut
-    -   utiliser la méthode de Newton telle qu'elle existe dans le module
-        `scipy.optimize`;
+    f(t\_{n+1},y\_{n+1}), appelée méthode du trapèze. Il faut donc résoudre
+    une équation non linéaire. Pour cela, on peut
+    
     -   calculer y\_{n+1} comme la limite de la suite itérative y\_{n+1,p+1}
         = y\_n + 0.5\*h\*( f(t\_n,y\_n) + f(t\_{n+1},y\_{n+1,p}) avec par exemple
         y\_{n+1,0} calculé par la méthode d'Euler explicite ou bien
         y\_{n+1,0}=y\_n.
+    -   utiliser la méthode de Newton telle qu'elle existe dans le module
+        `scipy.optimize`;
+    
+    Programmer ces deux méthodes et les tester sur l'équation de la
+    question 2. Refaire les graphes de convergence et comparer avec les
+    méthodes précédentes.
 6.  Un problème plus raide&#x2026;
 
