@@ -1,21 +1,21 @@
 
 # Table des matières
 
-1.  [4TMS702U, TP1: environnement de travail et initiation à Python](#org3d62943)
-    1.  [Séance 1, mardi 11 septembre 2018](#org2089fb3)
-    2.  [Partie 1: environnement de travail, premiers pas avec git.](#org3761bf1)
-    3.  [Partie 2: programmes de calcul en Python, utilisation de Numpy et Matplotlib](#org877bf36)
+1.  [4TMS702U, TP1: environnement de travail et initiation à Python](#org67980d2)
+    1.  [Séance 1, mardi 11 septembre 2018](#org00140fe)
+    2.  [Partie 1: environnement de travail, premiers pas avec git.](#org08f3b6a)
+    3.  [Partie 2: programmes de calcul en Python, utilisation de Numpy et Matplotlib](#org0a87698)
 
 
 
-<a id="org3d62943"></a>
+<a id="org67980d2"></a>
 
 # 4TMS702U, TP1: environnement de travail et initiation à Python
 
 **Le compte-rendu ([./CR.md](./CR.md)) utilise le [formalisme Markdown](https://guides.github.com/features/mastering-markdown) de Github.**
 
 
-<a id="org2089fb3"></a>
+<a id="org00140fe"></a>
 
 ## Séance 1, mardi 11 septembre 2018
 
@@ -31,7 +31,7 @@ questions ne sont là que pour les personnes qui sont déjà très à l'aise
 en programmation.\*
 
 
-<a id="org3761bf1"></a>
+<a id="org08f3b6a"></a>
 
 ## Partie 1: environnement de travail, premiers pas avec git.
 
@@ -72,7 +72,7 @@ de travail intégré (IDE) dédié qui supporte git et python.
     des fichiers présents ?
 
 
-<a id="org877bf36"></a>
+<a id="org0a87698"></a>
 
 ## Partie 2: programmes de calcul en Python, utilisation de Numpy et Matplotlib
 
@@ -93,21 +93,47 @@ de travail intégré (IDE) dédié qui supporte git et python.
     convergence des 2 méthodes sur la même figure (en échelle
     logarithmique). Quel commentaire peut-on faire ?
 4.  Reprendre l'analyse avec la méthode y\_{n+1} = y\_{n-1} +
-    2\*h\*f(t\_n,y\_n), appelée méthode du point lilieu ou méthode
+    2\*h\*f(t\_n,y\_n), appelée méthode du point milieu ou méthode
     saute-mouton. On calculera y\_1 par la méthode RK2.
 5.  On souhaite utiliser la méthode y\_{n+1} = y\_n + 0.5\*h\*( f(t\_n,y\_n) +
     f(t\_{n+1},y\_{n+1}), appelée méthode du trapèze. Il faut donc résoudre
-    une équation non linéaire. Pour cela, on peut
+    une équation non linéaire. 
     
-    -   calculer y\_{n+1} comme la limite de la suite itérative y\_{n+1,p+1}
-        = y\_n + 0.5\*h\*( f(t\_n,y\_n) + f(t\_{n+1},y\_{n+1,p}) avec par exemple
-        y\_{n+1,0} calculé par la méthode d'Euler explicite ou bien
-        y\_{n+1,0}=y\_n.
-    -   utiliser la méthode de Newton telle qu'elle existe dans le module
-        `scipy.optimize`;
+    Pour cela, on peut calculer y\_{n+1} comme la limite de la suite
+    itérative y\_{n+1,p+1} = y\_n + 0.5\*h\*( f(t\_n,y\_n) +
+    f(t\_{n+1},y\_{n+1,p}) avec par exemple y\_{n+1,0} calculé par la
+    méthode d'Euler explicite. En pratique, on s'aperçoit qu'il est
+    possible de ne faire qu'une seule itération de cette suite. On tombe
+    alors sur la méthode suivante, dite de prédiction-correction: y\_\* =
+    y\_n + h\*f(t\_n,y\_n) [prédiction], puis y\_{n+1} = y\_n + 0.5\*h\*(
+    f(t\_n,y\_n) + f(t\_{n+1},y\_\*) ) [correction]. 
+    
+    On peut aussi utiliser la méthode de Newtin (par exemple telle
+    qu'elle existe dans le module `scipy.optimize`) pour calculer une
+    approximation de la solution précise de l'équation non-linéaire
+    initiale.
     
     Programmer ces deux méthodes et les tester sur l'équation de la
     question 2. Refaire les graphes de convergence et comparer avec les
     méthodes précédentes.
-6.  Un problème plus raide&#x2026;
+6.  Nous disposons maintenant de 4 méthodes (si l'on ne conserve que la
+    verzsion prédiction-ocrrection de la question 5). Dans cette question
+    nous souhaitons les comparer pour la résolution de l'équation y'(t) =
+    a\*y(t) + (1-a)\*cos(t) - (1+a)\*sin(t), avec y(0)=1. Quel que soit a,
+    la solution exacte de ce problème de Cauchy est y(t) = sin(t)+cos(t).
+    
+    Comparer les erreurs commise par les différentes méthodes pour a=-1,
+    -10, -50 avec h=0.5, 0.1, 0.01 et en cherchant une solution approchée
+    sur [0,5].
+7.  On souhaite maintenant pouvoir résoudre des systèmes d'équations
+    différentielles, c'est à dire que y peut être un vecteur de dimension
+    finie m d'inconnues, et f(t,y) une fonction de RxR^m dans
+    R^m. Transformer le module [src/methodes.py](src/methodes.py) de telle sorte que chaque
+    méthode programmée puisse prendre en entrée une telle fonction, et
+    renvoyer un tableau solution de taille m x (1+N) (où N est le nombre
+    de pas de temps).
+    
+    Tester votre module en vérifiant la résolution du système linéaire y'
+    = Ay avec A = diag(-1,-2), dont la solution exacte est y(t) =
+    exp(At)\*y(0). On prendre par exemple y(0)=(1,1) et T=1.
 
