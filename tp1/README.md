@@ -1,21 +1,22 @@
 
 # Table des matières
 
-1.  [4TMS702U, TP1: environnement de travail et initiation à Python](#org67980d2)
-    1.  [Séance 1, mardi 11 septembre 2018](#org00140fe)
-    2.  [Partie 1: environnement de travail, premiers pas avec git.](#org08f3b6a)
-    3.  [Partie 2: programmes de calcul en Python, utilisation de Numpy et Matplotlib](#org0a87698)
+1.  [4TMS702U, TP1: environnement de travail et initiation à Python](#orgd740da1)
+    1.  [Séance 1, mardi 11 septembre 2018](#org1561c28)
+    2.  [Séance 2, mardi 18septembre 2018](#orgcbe4653)
+    3.  [Partie 1: environnement de travail, premiers pas avec git.](#orgefed0d4)
+    4.  [Partie 2: programmes de calcul en Python, utilisation de Numpy et Matplotlib](#org65afe61)
 
 
 
-<a id="org67980d2"></a>
+<a id="orgd740da1"></a>
 
 # 4TMS702U, TP1: environnement de travail et initiation à Python
 
 **Le compte-rendu ([./CR.md](./CR.md)) utilise le [formalisme Markdown](https://guides.github.com/features/mastering-markdown) de Github.**
 
 
-<a id="org00140fe"></a>
+<a id="org1561c28"></a>
 
 ## Séance 1, mardi 11 septembre 2018
 
@@ -31,7 +32,26 @@ questions ne sont là que pour les personnes qui sont déjà très à l'aise
 en programmation.\*
 
 
-<a id="org08f3b6a"></a>
+<a id="orgcbe4653"></a>
+
+## Séance 2, mardi 18septembre 2018
+
+-   Ouvrir un compte sur la plateforme github.com (sauf si vous en avez
+    déjà un).
+-   Cliquer sur le lien envoyé par email, puis accepter l'invitation sur
+    votre compte github, ce qui doit créer une copie du dépôt git
+    contenant les notes de cours et le TP1.
+-   Vous pouvez maintenant cloner le dépôt et commencer le travail de la
+    partie 2 ci-dessous. Pour répondre aux questions, vous devez utiliser
+    le fichier [CR.md](CR.md).
+-   Un objectif de la séance est que vous documentiez l'historique des
+    fichiers que vous ajoutez ou modifiez, notamment le fichier [CR.md](CR.md)
+    (commandes git add et git commit).
+-   N'oubliez pas de pousser (git push) votre travail sur le serveur à la
+    fin de la séance.
+
+
+<a id="orgefed0d4"></a>
 
 ## Partie 1: environnement de travail, premiers pas avec git.
 
@@ -72,7 +92,7 @@ de travail intégré (IDE) dédié qui supporte git et python.
     des fichiers présents ?
 
 
-<a id="org0a87698"></a>
+<a id="org65afe61"></a>
 
 ## Partie 2: programmes de calcul en Python, utilisation de Numpy et Matplotlib
 
