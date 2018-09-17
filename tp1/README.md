@@ -1,22 +1,22 @@
 
 # Table des matières
 
-1.  [4TMS702U, TP1: environnement de travail et initiation à Python](#orgd740da1)
-    1.  [Séance 1, mardi 11 septembre 2018](#org1561c28)
-    2.  [Séance 2, mardi 18septembre 2018](#orgcbe4653)
-    3.  [Partie 1: environnement de travail, premiers pas avec git.](#orgefed0d4)
-    4.  [Partie 2: programmes de calcul en Python, utilisation de Numpy et Matplotlib](#org65afe61)
+1.  [4TMS702U, TP1: environnement de travail et initiation à Python](#org1910847)
+    1.  [Séance 1, mardi 11 septembre 2018](#org4c7b8ae)
+    2.  [Séance 2, mardi 18septembre 2018](#orge5e7c41)
+    3.  [Partie 1: environnement de travail, premiers pas avec git.](#org4743c97)
+    4.  [Partie 2: programmes de calcul en Python, utilisation de Numpy et Matplotlib](#org5b33d32)
 
 
 
-<a id="orgd740da1"></a>
+<a id="org1910847"></a>
 
 # 4TMS702U, TP1: environnement de travail et initiation à Python
 
 **Le compte-rendu ([./CR.md](./CR.md)) utilise le [formalisme Markdown](https://guides.github.com/features/mastering-markdown) de Github.**
 
 
-<a id="org1561c28"></a>
+<a id="org4c7b8ae"></a>
 
 ## Séance 1, mardi 11 septembre 2018
 
@@ -32,7 +32,7 @@ questions ne sont là que pour les personnes qui sont déjà très à l'aise
 en programmation.\*
 
 
-<a id="orgcbe4653"></a>
+<a id="orge5e7c41"></a>
 
 ## Séance 2, mardi 18septembre 2018
 
@@ -51,7 +51,7 @@ en programmation.\*
     fin de la séance.
 
 
-<a id="orgefed0d4"></a>
+<a id="org4743c97"></a>
 
 ## Partie 1: environnement de travail, premiers pas avec git.
 
@@ -92,7 +92,7 @@ de travail intégré (IDE) dédié qui supporte git et python.
     des fichiers présents ?
 
 
-<a id="org65afe61"></a>
+<a id="org5b33d32"></a>
 
 ## Partie 2: programmes de calcul en Python, utilisation de Numpy et Matplotlib
 
@@ -128,7 +128,7 @@ de travail intégré (IDE) dédié qui supporte git et python.
     y\_n + h\*f(t\_n,y\_n) [prédiction], puis y\_{n+1} = y\_n + 0.5\*h\*(
     f(t\_n,y\_n) + f(t\_{n+1},y\_\*) ) [correction]. 
     
-    On peut aussi utiliser la méthode de Newtin (par exemple telle
+    On peut aussi utiliser la méthode de Newton (par exemple telle
     qu'elle existe dans le module `scipy.optimize`) pour calculer une
     approximation de la solution précise de l'équation non-linéaire
     initiale.
