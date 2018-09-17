@@ -1,22 +1,22 @@
 
 # Table des matières
 
-1.  [4TMS702U, TP1: environnement de travail et initiation à Python](#orgf5c1ea5)
-    1.  [Séance 1, mardi 11 septembre 2018](#orga6a739a)
-    2.  [Séance 2, mardi 18septembre 2018](#orgff8a9da)
-    3.  [Partie 1: environnement de travail, premiers pas avec git.](#org40f5af5)
-    4.  [Partie 2: programmes de calcul en Python, utilisation de Numpy et Matplotlib](#org8529dbf)
+1.  [4TMS702U, TP1: environnement de travail et initiation à Python](#org58772a3)
+    1.  [Séance 1, mardi 11 septembre 2018](#org3b596a8)
+    2.  [Séance 2, mardi 18septembre 2018](#org150102a)
+    3.  [Partie 1: environnement de travail, premiers pas avec git.](#org0dda037)
+    4.  [Partie 2: programmes de calcul en Python, utilisation de Numpy et Matplotlib](#org22293e4)
 
 
 
-<a id="orgf5c1ea5"></a>
+<a id="org58772a3"></a>
 
 # 4TMS702U, TP1: environnement de travail et initiation à Python
 
 **Le compte-rendu ([./CR.md](./CR.md)) utilise le [formalisme Markdown](https://guides.github.com/features/mastering-markdown) de Github.**
 
 
-<a id="orga6a739a"></a>
+<a id="org3b596a8"></a>
 
 ## Séance 1, mardi 11 septembre 2018
 
@@ -32,7 +32,7 @@ questions ne sont là que pour les personnes qui sont déjà très à l'aise
 en programmation.\*
 
 
-<a id="orgff8a9da"></a>
+<a id="org150102a"></a>
 
 ## Séance 2, mardi 18septembre 2018
 
@@ -58,7 +58,7 @@ fin de la séance.** C'est de cette manière que nous allons récupérer
 votre travail et votre compte-rendu.
 
 
-<a id="org40f5af5"></a>
+<a id="org0dda037"></a>
 
 ## Partie 1: environnement de travail, premiers pas avec git.
 
@@ -99,7 +99,7 @@ de travail intégré (IDE) dédié qui supporte git et python.
     des fichiers présents ?
 
 
-<a id="org8529dbf"></a>
+<a id="org22293e4"></a>
 
 ## Partie 2: programmes de calcul en Python, utilisation de Numpy et Matplotlib
 
