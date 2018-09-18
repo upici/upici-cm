@@ -116,7 +116,7 @@ de travail intégré (IDE) dédié qui supporte git et python.
     puis y(0)=2.
 3.  Reprendre l'analyse avec la méthode suivante (que l'on appelle
     méthode de Runge-Kutta 2 &#x2013; RK2) à la place de la méthode d'Euler:
-    y\_{n+1} = y\_n + h\*f(t\_n+0.5\*h,y\_n+0.5\*f(y\_n)). Tracer les graphes de
+    y\_{n+1} = y\_n + h\*f(t\_n+0.5\*h,y\_n+0.5\*h\*f(y\_n)). Tracer les graphes de
     convergence des 2 méthodes sur la même figure (en échelle
     logarithmique). Quel commentaire peut-on faire ?
 4.  Reprendre l'analyse avec la méthode y\_{n+1} = y\_{n-1} +
