@@ -1,40 +1,39 @@
 
 # Table des matières
 
-1.  [Organisation pratique, évaluation](#orgab9b151)
-    1.  [Les objectifs principaux](#orgdef7fa1)
-    2.  [La méthode pour y arriver](#orgcf738b3)
-    3.  [Évaluation](#org833d20a)
-    4.  [Emploi du temps 8h de CM + 16h de TDM](#orgd72120e)
-    5.  [Codes UE et groupes](#org34fc605)
-    6.  [Tentative de déroulement](#org24d03b4)
-2.  [Outils et resources](#orgcf647be)
-    1.  [Git](#orgd21b148)
-    2.  [Latex, Markdown](#org0eb7514)
-    3.  [Python](#orgb7a953a)
-    4.  [EDP et calcul scientifique](#org60316a1)
-3.  [Quelques mots sur le calcul scientifique (dans ce cours)](#org5e8a30a)
-    1.  [Introduction](#org22ca822)
-    2.  [Des problèmes spécifiques](#orge62d282)
-    3.  [Matériel](#org99ef242)
-    4.  [Outils informatiques](#orgcd97403)
-    5.  [Mathématiques](#org94717c8)
-    6.  [Objectif principal](#org38796de)
-    7.  [Liens](#org97a0b6c)
-4.  [Python et les modules scientifiques](#orgf922854)
-    1.  [Généralités](#orgbb840eb)
-    2.  [Python pour le calcul scientifique](#orgc6d7836)
-    3.  [Interpéteur](#org8961500)
-    4.  [Disponibilité, installation](#org89c1a3b)
+1.  [Organisation pratique, évaluation](#orgc71eb31)
+    1.  [Les objectifs principaux](#org8a41bc1)
+    2.  [La méthode pour y arriver](#org8ed72c1)
+    3.  [Évaluation](#org392434a)
+    4.  [Emploi du temps 8h de CM + 16h de TDM](#orgccc8cf9)
+    5.  [Codes UE et groupes](#orgbc5b77f)
+    6.  [Tentative de déroulement](#org1ee5531)
+2.  [Outils et resources](#org3b992b7)
+    1.  [Git](#orgc0d6d4e)
+    2.  [Latex, Markdown](#org843364d)
+    3.  [Python](#org8c27d17)
+    4.  [EDP et calcul scientifique](#orgcc9cd95)
+3.  [Quelques mots sur le calcul scientifique (dans ce cours)](#org421c6bc)
+    1.  [Introduction](#orgbc8d6cf)
+    2.  [Des problèmes spécifiques](#org161f2dd)
+    3.  [Matériel](#orgb147cc8)
+    4.  [Outils informatiques](#org1ac547d)
+    5.  [Mathématiques](#org7fe044b)
+    6.  [Objectif principal](#orgf07eba5)
+    7.  [Liens](#org0b2fd93)
+4.  [Python et les modules scientifiques](#orgab47de9)
+    1.  [Introduction](#orgd1300c3)
+    2.  [Python pour le calcul scientifique](#org64460c5)
+    3.  [Disponibilité, installation](#org8e549c1)
 
 
 
-<a id="orgab9b151"></a>
+<a id="orgc71eb31"></a>
 
 # Organisation pratique, évaluation
 
 
-<a id="orgdef7fa1"></a>
+<a id="org8a41bc1"></a>
 
 ## Les objectifs principaux
 
@@ -44,7 +43,7 @@
 -   Découvrir l'approximation des EDP par la pratique.
 
 
-<a id="orgcf738b3"></a>
+<a id="org8ed72c1"></a>
 
 ## La méthode pour y arriver
 
@@ -61,7 +60,7 @@ projet donne lieu à
 -   un exposé devant l'ensemble des étudiants.
 
 
-<a id="org833d20a"></a>
+<a id="org392434a"></a>
 
 ## Évaluation
 
@@ -70,7 +69,7 @@ projet donne lieu à
     session 1, note rapport session 2), ie règle du max
 
 
-<a id="orgd72120e"></a>
+<a id="orgccc8cf9"></a>
 
 ## Emploi du temps 8h de CM + 16h de TDM
 
@@ -85,17 +84,11 @@ projet donne lieu à
 <col  class="org-left" />
 
 <col  class="org-left" />
-
-<col  class="org-left" />
-
-<col  class="org-left" />
 </colgroup>
 <thead>
 <tr>
 <th scope="col" class="org-left">CM</th>
 <th scope="col" class="org-left">TDM</th>
-<th scope="col" class="org-left">&#xa0;</th>
-<th scope="col" class="org-left">&#xa0;</th>
 <th scope="col" class="org-left">&#xa0;</th>
 <th scope="col" class="org-left">&#xa0;</th>
 </tr>
@@ -104,10 +97,8 @@ projet donne lieu à
 <tbody>
 <tr>
 <td class="org-left">3h</td>
-<td class="org-left">&#xa0;</td>
+<td class="org-left">3h</td>
 <td class="org-left">mardi 11/09/2018</td>
-<td class="org-left">9:30 12:30</td>
-<td class="org-left">A28/CREMI/105</td>
 <td class="org-left">Introduction à git, python</td>
 </tr>
 
@@ -116,8 +107,6 @@ projet donne lieu à
 <td class="org-left">&#xa0;</td>
 <td class="org-left">2h40</td>
 <td class="org-left">mardi 18/09/2018</td>
-<td class="org-left">9:30-10h50, 11h-12h20</td>
-<td class="org-left">A28/CREMI/105</td>
 <td class="org-left">TP1 individuel</td>
 </tr>
 
@@ -126,8 +115,6 @@ projet donne lieu à
 <td class="org-left">&#xa0;</td>
 <td class="org-left">2h40</td>
 <td class="org-left">mardi 02/10/2018</td>
-<td class="org-left">9:30-10h50, 11h-12h20</td>
-<td class="org-left">A28/CREMI/105</td>
 <td class="org-left">Début travail en groupes</td>
 </tr>
 
@@ -136,8 +123,6 @@ projet donne lieu à
 <td class="org-left">&#xa0;</td>
 <td class="org-left">2h40</td>
 <td class="org-left">mardi 09/10/2018</td>
-<td class="org-left">9:30-10h50, 11h-12h20</td>
-<td class="org-left">A28/CREMI/105</td>
 <td class="org-left">&#xa0;</td>
 </tr>
 
@@ -145,9 +130,7 @@ projet donne lieu à
 <tr>
 <td class="org-left">2h</td>
 <td class="org-left">&#xa0;</td>
-<td class="org-left">&#xa0;</td>
-<td class="org-left">&#xa0;</td>
-<td class="org-left">&#xa0;</td>
+<td class="org-left">mardi 23/10/2018</td>
 <td class="org-left">Complément python, latex</td>
 </tr>
 
@@ -155,19 +138,7 @@ projet donne lieu à
 <tr>
 <td class="org-left">&#xa0;</td>
 <td class="org-left">2h40</td>
-<td class="org-left">mardi 16/10/2018</td>
-<td class="org-left">9:30-10h50, 11h-12h20</td>
-<td class="org-left">A28/CREMI/105</td>
-<td class="org-left">&#xa0;</td>
-</tr>
-
-
-<tr>
-<td class="org-left">&#xa0;</td>
-<td class="org-left">2h40</td>
 <td class="org-left">mardi 06/11/2018</td>
-<td class="org-left">9:30-10h50, 11h-12h20</td>
-<td class="org-left">A28/CREMI/105</td>
 <td class="org-left">&#xa0;</td>
 </tr>
 
@@ -176,8 +147,14 @@ projet donne lieu à
 <td class="org-left">&#xa0;</td>
 <td class="org-left">2h40</td>
 <td class="org-left">mardi 13/11/2018</td>
-<td class="org-left">9:30-10h50, 11h-12h20</td>
-<td class="org-left">A28/CREMI/105</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">2h40</td>
+<td class="org-left">mardi 20/11/2018</td>
 <td class="org-left">&#xa0;</td>
 </tr>
 
@@ -185,9 +162,7 @@ projet donne lieu à
 <tr>
 <td class="org-left">3h</td>
 <td class="org-left">&#xa0;</td>
-<td class="org-left">&#xa0;</td>
-<td class="org-left">&#xa0;</td>
-<td class="org-left">A28/CREMI/105</td>
+<td class="org-left">mardi 27/11/2018</td>
 <td class="org-left">Présentation finale des projets</td>
 </tr>
 </tbody>
@@ -198,14 +173,12 @@ projet donne lieu à
 <td class="org-left">16h</td>
 <td class="org-left">&#xa0;</td>
 <td class="org-left">&#xa0;</td>
-<td class="org-left">&#xa0;</td>
-<td class="org-left">&#xa0;</td>
 </tr>
 </tbody>
 </table>
 
 
-<a id="org34fc605"></a>
+<a id="orgbc5b77f"></a>
 
 ## Codes UE et groupes
 
@@ -215,45 +188,45 @@ projet donne lieu à
 -   **Email du groupe:** ue-4tms702u@diffetu.u-bordeaux.fr
 
 
-<a id="org24d03b4"></a>
+<a id="org1ee5531"></a>
 
 ## Tentative de déroulement
 
-1.  CM1: intro, cadre du cours, exemples, planning, dates importantes,
-    travail à fournir, échanges. Bref cours sur git, python, markdown à
-    partir d'un exemple de code et de compte-rendu en latex, qui
-    deviendra le TP1 à terminer à la prochaine séance.
+1.  CM1: intro, cadre du cours, exemples, planning, dates importantes, travail à
+    fournir, échanges. Bref cours sur git, python, markdown à partir d'un
+    exemple de code et de compte-rendu en latex, qui deviendra le TP1 à terminer
+    à la prochaine séance.
 
-2.  TP1, individuel: gestion individuel d'un projet git. Rédaction d'un
-    premier compte-rendu en Markdown. Prise en main de python: faire
-    réaliser un petit code à chacun. Utilisation de ipython + editeur de
-    texte. Pour traiter un système de 2 EDO à la place d'une EDO unique,
-    puis tracer les trajectoires dans le plan de phase. Discussion et
-    explication des sujets, choix et organisation en groupes.
+2.  TP1, individuel: gestion individuel d'un projet git. Rédaction d'un premier
+    compte-rendu en Markdown. Prise en main de python: faire réaliser un petit
+    code à chacun. Utilisation de ipython + editeur de texte. Pour traiter un
+    système de 2 EDO à la place d'une EDO unique, puis tracer les trajectoires
+    dans le plan de phase. Discussion et explication des sujets, choix et
+    organisation en groupes.
 
-3.  TP2-3: Premier travail de programmation sur une situation simplifiée
-    du projet. Reflexion sur les difficultés supplémentaires pour le cas
-    'final', quelles sont les questions auxquelles répondre ? Où trouver
-    les réponses ? Comment organiser le travail à venir ? Rédaction d'un
-    rapport préliminaire en latex si possible.
+3.  TP2-3: Premier travail de programmation sur une situation simplifiée du
+    projet. Reflexion sur les difficultés supplémentaires pour le cas 'final',
+    quelles sont les questions auxquelles répondre ? Où trouver les réponses ?
+    Comment organiser le travail à venir ? Rédaction d'un rapport préliminaire
+    en latex si possible.
 
-4.  TP4: tour de table pour que chaque groupe synthétise son rapport,
-    ses qestions, son cheminement. Commencer le travail final de
-    programmation.
+4.  CM2: compléments théorique python à base d'exemples. Tour de table pour que
+    chaque groupe synthétise son rapport, ses qestions, son
+    cheminement. Commencer le travail final de programmation.
 
-5.  TP5-6: travail de programmation sur le projet, et mise au point, via
-    les resources disponibles, et par échange avec l'enseignant.
+5.  TP5-6: travail de programmation sur le projet, et mise au point, via les
+    resources disponibles, et par échange avec l'enseignant.
 
-6.  TP7: finalisation du projet, rédaction en commun du squelette du
-    rapport, mise en place des éléments les plus importants, notamment
-    les résultats disponibles. Répartition du travail de rédaction et de
-    mise en forme. Rédaction du plan de l'exposé, nombre de diapos,
-    contenu et rôle de chaque diapo.
+6.  TP7: finalisation du projet, rédaction en commun du squelette du rapport,
+    mise en place des éléments les plus importants, notamment les résultats
+    disponibles. Répartition du travail de rédaction et de mise en
+    forme. Rédaction du plan de l'exposé, nombre de diapos, contenu et rôle de
+    chaque diapo.
 
 7.  CM2: exposé par groupe, remise des rapports finaux.
 
 
-<a id="orgcf647be"></a>
+<a id="org3b992b7"></a>
 
 # Outils et resources
 
@@ -261,7 +234,7 @@ Plus d'informations dans le premier TP, et plus d'informations disponible au fur
 et à mesure de l'avancement du cours.
 
 
-<a id="orgd21b148"></a>
+<a id="orgc0d6d4e"></a>
 
 ## Git
 
@@ -271,7 +244,7 @@ et à mesure de l'avancement du cours.
 -   <http://yannesposito.com/Scratch/fr/blog/2009-11-12-Git-for-n00b/>
 
 
-<a id="org0eb7514"></a>
+<a id="org843364d"></a>
 
 ## Latex, Markdown
 
@@ -279,7 +252,7 @@ et à mesure de l'avancement du cours.
 -   Le langage Latex, <https://www.latex-project.org>
 
 
-<a id="orgb7a953a"></a>
+<a id="org8c27d17"></a>
 
 ## Python
 
@@ -289,7 +262,7 @@ et à mesure de l'avancement du cours.
 -   Il existe de nombreuses autres resources pour python.
 
 
-<a id="org60316a1"></a>
+<a id="orgcc9cd95"></a>
 
 ## EDP et calcul scientifique
 
@@ -330,12 +303,12 @@ Vous avez accès à la bibliothèque de math et info (bâtiment A33).
 ### Lien web
 
 
-<a id="org5e8a30a"></a>
+<a id="org421c6bc"></a>
 
 # Quelques mots sur le calcul scientifique (dans ce cours)
 
 
-<a id="org22ca822"></a>
+<a id="orgbc8d6cf"></a>
 
 ## Introduction
 
@@ -362,7 +335,7 @@ Quelques questions importantes à propos du calcul scientifique:
     git, svn&#x2026; &#x2013;, tests, documentation&#x2026;) ?
 
 
-<a id="orge62d282"></a>
+<a id="org161f2dd"></a>
 
 ## Des problèmes spécifiques
 
@@ -384,7 +357,7 @@ qui permettent de calculer des solutions approchées d'équations aux dérivées
 partielles.
 
 
-<a id="org99ef242"></a>
+<a id="orgb147cc8"></a>
 
 ## Matériel
 
@@ -398,7 +371,7 @@ partielles.
     semestre de printemps.
 
 
-<a id="orgcd97403"></a>
+<a id="org1ac547d"></a>
 
 ## Outils informatiques
 
@@ -416,7 +389,7 @@ partielles.
     bibliothèques&#x2026;
 
 
-<a id="org94717c8"></a>
+<a id="org7fe044b"></a>
 
 ## Mathématiques
 
@@ -429,7 +402,7 @@ partielles.
 -   Interpolation, approximation, intégration numérique.
 
 
-<a id="org38796de"></a>
+<a id="orgf07eba5"></a>
 
 ## Objectif principal
 
@@ -440,7 +413,7 @@ des problèmes numériquement complexe sur des ordinateurs dédiés au calcul,
 Ça demande l'utilisation d'outils informatique et numériques spécifiques.
 
 
-<a id="org97a0b6c"></a>
+<a id="org0b2fd93"></a>
 
 ## Liens
 
@@ -459,14 +432,14 @@ Liste de quelques liens.
     scientifique.
 
 
-<a id="orgf922854"></a>
+<a id="orgab47de9"></a>
 
 # Python et les modules scientifiques
 
 
-<a id="orgbb840eb"></a>
+<a id="orgd1300c3"></a>
 
-## Généralités
+## Introduction
 
 -   **Python:** langage de haut niveau, simple et élégant. Python est plus qu'un
     langage de programmation. C'est l'environnement de travail qui permet
@@ -477,8 +450,142 @@ Liste de quelques liens.
     bonnes pratiques, beaucoup de bibliothèques dans tous les domaines
 -   **Inconvénients:** exécution décentralisée, lente, démarrage peut être difficile
 
+Notons que ce document est rédigé en utilisant les version suivantes:
 
-<a id="orgc6d7836"></a>
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-right" />
+</colgroup>
+<tbody>
+<tr>
+<td class="org-left">python</td>
+<td class="org-right">3.6.5</td>
+</tr>
+
+
+<tr>
+<td class="org-left">ipython</td>
+<td class="org-right">5.4.1</td>
+</tr>
+
+
+<tr>
+<td class="org-left">numpy</td>
+<td class="org-right">1.10.4</td>
+</tr>
+
+
+<tr>
+<td class="org-left">scipy</td>
+<td class="org-right">0.19.1</td>
+</tr>
+
+
+<tr>
+<td class="org-left">matplotlib</td>
+<td class="org-right">2.2.2</td>
+</tr>
+</tbody>
+</table>
+
+On trouve en ligne de nombreux tutoriels Python, généralistes ou spécialisés
+dans certains domaines, par exemple le tutoriel officiel de python (pour la
+version 3) est là: <https://docs.python.org/fr/3/tutorial/index.html>.
+
+
+### Interpéteur, fichiers, encodage
+
+*Rappel:* l'ordinateur est une machine à calculer sophistiquée. Ses éléments
+clés sont une (ou plusieurs) unités de calcul, qui disposent de registres
+locaux, et une hiérarchie de mémoire différemment organisée suivant les
+machines. Les unités de calcul sont capables de réaliser de nombreuses
+opérations élémentaires entre les valeurs enregistrées dans les registres
+(notamment +,\* et toutes les opérations mathématiques et logiques de base). Elle
+sont connectées aux mémoires en partant des mémoires les plus proches, qui sont
+les plus rapides d'accès mais aussi les plus petites (exple: mémoire cache), aux
+plus lointaine qui sont aussi les plus grandes (disque dur). La mémoire vive se
+trouve en général à un niveau intermédiaire.
+
+Un programme est un ensemble d'instructions et de données qui sont stockés dans
+la mémoire. Les unités de calcul exécutent les instructions en partantdes
+données. Les instructions sont, a priori, celles qui sont connues des unités de
+calcul, dont le langage est appelé assembleur. Mais en pratique, elle sont peu
+lisibles par un être humain. Nous avons donc besoin d'un outil qui permette de
+générer ces instructions à partir des programmes que nous allons écrire. Ces
+programmes sont des suites d'instructions rédigées dans un langage
+compréhensible, mais néanmoins codifié (dans le domaine du calcul scientifiqur,
+C, C++, Fortran, python, julia&#x2026;). Pour exécuter celui-ci, il existe
+principalement deux méthodes.
+
+1.  Transformer ce texte en une suite d'instruction de l'unité de calcul, c'est
+    ce qu'on appelle compiler un programme. Pour cela on utilise un logiciel
+    appelé compilateur, qui génère du code machine (ou assembleur), puis on
+    exécute celui-ci. Exemples: C, C++, Fortran.
+2.  Interpréter le programme instruction par instruction, en faisant le lien
+    entre chaque instruction et du code machine standardisé. Les instructions
+    sont interprétées puis exécutées une à une par un interpréteur de
+    commande. Exemple: Python.
+
+La technique 1. est plus complexe à mettre en oeuvre, mais donne des programmes
+mieux optimisé et dont les temps d'exécutions sont en général beaucoup plus
+rapides. La technique 2 est très flexible et d'utilisation simple. Elle peut
+être assez rapide si l'on utilise des ensembles d'instruction compilées à
+l'avance pour les tâches les plus complexes.
+
+*Note:* le nouveau langage Julia permet une approche intermédiaire, dite de
+compilation *just in time*.
+
+
+#### Interpéteur
+
+L'interpréteur est un programme qui présente une interface dans laquelle on peut
+taper et exécuter des instructions. Par exemple lorsque l'on ouvre un terminal
+sous linux, celui-ci exécute un interpréteur de commande linux, en général
+bash. Il présente une invitation de commande appelée prompt (souvent le signe
+$). Celui-ci permet d'exécuter des commandes du système linux, comme ls, rm, cp,
+cd, etc. Il permet en particulier d'exécuter les interpéteurs pythons
+
+-   **python:** intepréteur par défaut, lit et exécute un code
+    python. Alternativement propose un environnement d'interprétation
+    rustique.
+-   **ipython:** interpéteur beaucoup plus riche et commode à utiliser. Avec
+    historique des commandes, complétion automatique, édition de code,
+    extraction de documentation, interaction avec l'environnement, etc.
+-   **jupyter notebook:** environnement de travail augmenté avec possibilité de
+    prendre des notes et de montrer des résultats. Nécessite d'utiliser un
+    serveur jupyter.
+
+
+#### Fichier et encodage
+
+Le programme est enregistré dans un fichier, en général sur le disque est
+enregistré en mémoire (disque dur en general) en transformant chacun des
+caractères en code binaire. Le code historique est le code Ascii, mais le code
+utilisé actuellement s'appelle utf-8. Il permet de coder, entre autre, tous les
+caractères des langues européennes (avec leurs accents).
+
+
+### Introduction python
+
+-   variable: endroit de la mémoire utilisé pour stocker une quantité et repérée
+    par un identifiant
+-   en python, il n'est pas nécessaire de spécifier le type de la vairable
+    (entier, flottant, chaine de caractère&#x2026;), cela se fait de manière
+    automatique en fonction de l'instruction d'affection d'un valeur à la
+    variable.
+-   le types de base de variable python sont:
+-   on peut faire des poérations entre les variables ou sur une variable: +, -, \*,
+    //, %, or, and, not, etc.
+-   python peut faire des conversion automatiques entre types de données, en
+    particulier numériques
+-   
+
+
+<a id="org64460c5"></a>
 
 ## Python pour le calcul scientifique
 
@@ -505,21 +612,7 @@ procédurale, et sans utiliser de notions de programmation orientée
 objet.
 
 
-<a id="org8961500"></a>
-
-## Interpéteur
-
--   **python:** intepréteur par défaut, lit et exécute un code
-    python. Alternativement propose un environnement d'interprétation rustique.
--   **ipython:** interpéteur beaucoup plus riche et commode à utiliser. Avec
-    historique des commandes, complétion automatique, édition de code,
-    extraction de documentation, interaction avec l'environnement, etc.
--   **jupyter notebook:** environnement de travail augmenté avec possibilité de
-    prendre des notes et de montrer des résultats. Nécessite d'utiliser un
-    serveur jupyter, édition hors-ligne délicate.
-
-
-<a id="org89c1a3b"></a>
+<a id="org8e549c1"></a>
 
 ## Disponibilité, installation
 
