@@ -357,7 +357,11 @@ objet.
 Les exemples qui ont été présentés en cours sont dans le répertoire
 [[file:exemples_python][exemples_python]], organisés comme décrit ci-dessous.
 1. [[file:exemples_python/intro_numpy.ipynb][intro_numpy.ipynb]] : introduction à Numpy. Le code python est dans [[file:exemples_python/intro_numpy.py][intro_numpy.py]].
-
+2. [[file:exemples_python/intro_matplotlib.py][intro_matplotlib.py]] : script d'introduction pour les graphiques avec
+   matplotlib.
+3. [[file:exemples_python/intro_sparse.ipynb][intro_sparse.ipynb]] : introduction à l'utilisation de matrices
+   creuses, et résolution d'un équation de type Laplace. Le code python
+   est dans [[file:exemples_python/intro_sparse.py][intro_sparse.py]].
 ** Disponibilité, installation
 Python est disponible sous linux, windows et MacOS. Dans tous les cas, il faut
 installer au minimum: python, ipython, numpy, scipy, matplotlib.
