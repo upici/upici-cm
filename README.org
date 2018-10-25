@@ -37,6 +37,8 @@ projet donne lieu à
 |    | 2h40 | mardi 02/10/2018 | Début travail en groupes        |
 |    | 2h40 | mardi 09/10/2018 |                                 |
 | 2h |      | mardi 23/10/2018 | Complément python, latex        |
+|    |      |                  | [[*Exemples python][Exemples python]]                 |
+|    |      |                  | [[*Exemples numpy et scipy.sparse][Exemples numpy et scipy.sparse]]  |
 |    | 2h40 | mardi 06/11/2018 |                                 |
 |    | 2h40 | mardi 13/11/2018 |                                 |
 |    | 2h40 | mardi 20/11/2018 |                                 |
@@ -320,7 +322,7 @@ caractères des langues européennes (avec leurs accents).
   particulier numériques
 - etc
 
-*** Exemples
+*** Exemples python
 Quelques exemples introductifs à python (très succins) sont disponibles
 dans le répertoire [[file:exemples_python][exemples_python]]. Il est suggéré de les parcourir dans
 l'ordre ci-dessous:
@@ -354,6 +356,7 @@ bon pour le calcul parralèle (threads, openmp, mpi, cuda, opencl)
 procédurale, et sans utiliser de notions de programmation orientée
 objet.
 
+*** Exemples numpy et scipy.sparse
 Les exemples qui ont été présentés en cours sont dans le répertoire
 [[file:exemples_python][exemples_python]], organisés comme décrit ci-dessous.
 1. [[file:exemples_python/intro_numpy.ipynb][intro_numpy.ipynb]] : introduction à Numpy. Le code python est dans [[file:exemples_python/intro_numpy.py][intro_numpy.py]].
