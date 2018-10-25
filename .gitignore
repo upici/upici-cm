@@ -2,9 +2,6 @@
 *~
 auto/
 
-# org-mode files
-*.org
-
 # gimp images
 *.xcf
 
