@@ -92,7 +92,13 @@ et à mesure de l'avancement du cours.
 - http://yannesposito.com/Scratch/fr/blog/2009-11-12-Git-for-n00b/
 ** Latex, Markdown
 - Le langage Markdown, pour l'écriture de compte-rendus hebdomadaires, https://daringfireball.net/projects/markdown
-- Le langage Latex, https://www.latex-project.org
+- Le langage Latex, https://www.latex-project.org. 
+   + [[file:template.tex][template.tex]] : exemple de fichier Latex qui permet de contruire un
+     document en français. Le fichier doit être enregistré avec
+     l'encodage UTF8. Il inclus une bibliographie (bibtex) et une image
+     (pdf).
+   + [[file:refs.bib][refs.bib]] : fichier des references bibliographies.
+   + [[file:V_tnnp.pdf][V_tnnp.pdf]] : image incluse dans le .tex.
 ** Python
 - Le langage Python (et les modules cités plus haut), https://www.python.org
 - Les modules dédiés au calcul scientifique,
@@ -312,7 +318,19 @@ caractères des langues européennes (avec leurs accents).
   //, %, or, and, not, etc.
 - python peut faire des conversion automatiques entre types de données, en
   particulier numériques
-- 
+- etc
+
+Quelques exemples introductifs à python (très succins) sont disponibles
+dans le répertoire [[file:exemples_python][exemples_python]]. Il est suggéré de les parcourir dans
+l'ordre ci-dessous:
+1. [[file:exemples_python/hello_world.py][hello_world.py]] : un premer script.
+2. [[file:exemples_python/simple_data_types.py][simple_data_types.py]] : exemples de quelques types de variables python.
+3. [[file:exemples_python/more_data_types.py][more_data_types.py]] : d'autres types de variables, plus riches.
+4. [[file:exemples_python/operations.py][operations.py]] : les opérations, exemples avec conversions
+   automatiques, etc.
+5. [[file:exemples_python/control_flow.py][control_flow.py]] : tests et boucles.
+6. [[file:exemples_python/functions_modules.py][functions_modules.py]] : comment définir des fonctions.
+7. [[file:exemples_python/files_io.py][files_io.py]] : écriture et lecture de fichiers.
 ** Python pour le calcul scientifique
 Communauté importante d'utilisateurs, écosystème étendu:
 - numpy :: http://numpy.scipy.org -- gestion efficace des grands tableaux dans
