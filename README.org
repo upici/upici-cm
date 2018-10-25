@@ -37,8 +37,6 @@ projet donne lieu à
 |    | 2h40 | mardi 02/10/2018 | Début travail en groupes        |
 |    | 2h40 | mardi 09/10/2018 |                                 |
 | 2h |      | mardi 23/10/2018 | Complément python, latex        |
-|    |      |                  | [[*Exemples python][Exemples python]]                 |
-|    |      |                  | [[*Exemples numpy et scipy.sparse][Exemples numpy et scipy.sparse]]  |
 |    | 2h40 | mardi 06/11/2018 |                                 |
 |    | 2h40 | mardi 13/11/2018 |                                 |
 |    | 2h40 | mardi 20/11/2018 |                                 |
