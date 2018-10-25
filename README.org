@@ -320,6 +320,7 @@ caractères des langues européennes (avec leurs accents).
   particulier numériques
 - etc
 
+*** Exemples
 Quelques exemples introductifs à python (très succins) sont disponibles
 dans le répertoire [[file:exemples_python][exemples_python]]. Il est suggéré de les parcourir dans
 l'ordre ci-dessous:
@@ -352,6 +353,12 @@ bon pour le calcul parralèle (threads, openmp, mpi, cuda, opencl)
 *Note:* Nous utiliserons python pour faire de la programmation
 procédurale, et sans utiliser de notions de programmation orientée
 objet.
+
+Les exemples qui ont été présentés en cours sont dans le répertoire
+[[file:exemples_python][exemples_python]], organisés comme décrit ci-dessous.
+1. [[file:exemples_python/intro_numpy.html][intro_numpy.html]] : introduction à Numpy sous forme de page web. Le
+   code python est dans [[file:exemples_python/intro_numpy.py][intro_numpy.py]].
+
 ** Disponibilité, installation
 Python est disponible sous linux, windows et MacOS. Dans tous les cas, il faut
 installer au minimum: python, ipython, numpy, scipy, matplotlib.
