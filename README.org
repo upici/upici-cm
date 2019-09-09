@@ -266,16 +266,15 @@ des problèmes numériquement complexe sur des ordinateurs dédiés au calcul,
 ** Liens
 Liste de quelques liens.
 
-- matlab :: http://fr.mathworks.com/, licence commerciale
-- scilab :: http://www.scilab.org/fr, licence open source CeCILL, téléchargeable
-     gratuitement
-- octave :: https://www.gnu.org/software/octave/, licence GNU General Public
-     License
-- freefem++ :: http://www.freefem.org/, licence ??
-- python :: https://www.python.org/, licence PSF (compatible GPL), langage de
-     programation généraliste simplet et de haut niveau.
+- matlab :: http://fr.mathworks.com/
+- scilab :: http://www.scilab.org/fr
+- octave :: https://www.gnu.org/software/octave/
+- freefem++ :: http://www.freefem.org/
+- python :: https://www.python.org/, langage de programation généraliste
+            simple et de haut niveau.
 - scipy scientific computing stack ::
-     https://www.scipy.org/about.html, licences libres variées
+     https://www.scipy.org/about.html, bibliothèque de calcul
+     scientifique pour Python
 - julia :: https://julialang.org/, nouveau langage dédié au calcul
            scientifique.
 
