@@ -145,8 +145,9 @@ d'utiliser les branches !
  - supprimer la branche: ~git branch -d <test>~ 
  - résolution des conflits: voir ~git help merge~
 ** Latex, Markdown
-- Le langage Markdown, pour l'écriture de compte-rendus hebdomadaires, https://daringfireball.net/projects/markdown
-- Le langage Latex, https://www.latex-project.org. 
+- Le langage Markdown, pour l'écriture de compte-rendus hebdomadaires,
+  https://daringfireball.net/projects/markdown
+- Le langage Latex, https://www.latex-project.org.
    + [[file:template.tex][template.tex]] : exemple de fichier Latex qui permet de contruire un
      document en français. Le fichier doit être enregistré avec
      l'encodage UTF8. Il inclus une bibliographie (bibtex) et une image
@@ -199,7 +200,7 @@ En sciences, le calcul scientifique est un outil à part entière de
 résolution de problèmes et de conception de solutions techniques. Il
 existe désormais plusieurs outils matures qui facilitent et accélèrent
 le développement de ces solutions techniques. La maîtrise de ces outils
-et du calcul scientifique est un atout important de la recherche
+et du calcul scientifique est un atout important dans la recherche
 d'emploi.
 
 Quelques questions importantes à propos du calcul scientifique:
@@ -212,19 +213,20 @@ Quelques questions importantes à propos du calcul scientifique:
 Des problèmes d'ingénierie ou de recherche qui demande la résolution de
 problèmes numériques de très grandes tailles ou qui sont très nombreux.
 
-Exemple de la prévision de la météo, de gestion de files d'attente complexes
-(réseaux chemin de fer, réseaux avions...), du traitement d'image (imagerie
-médicale, animation...)
+Exemple de la prévision de la météo, de gestion de files d'attente
+complexes (réseaux chemin de fer, réseaux avions...), du traitement
+d'image (imagerie médicale, animation...)
 
-L'ordinateur fait des + et *, et répartit le travail, communique des nombres. Le
-coeur des algorithmes repose sur la gestion (construction, manipulation,
-opérations...) des grands tableaux de nombres. Et donc d'un point de vue
-mathématique sur l'algèbre linéaire pour des grandes matrices. Grand = plusieurs
-millions, voir des milliards. Exemple: un cube 100*100*100 = 1 million.
+L'ordinateur fait des + et *, et répartit le travail, communique des
+nombres. Le coeur des algorithmes repose sur la gestion (construction,
+manipulation, opérations...) des grands tableaux de nombres. Et donc
+d'un point de vue mathématique sur l'algèbre linéaire pour des grandes
+matrices. Grand = plusieurs millions, voir des milliards. Exemple: un
+cube 100*100*100 = 1 million.
 
-À partir de ces opérations matricielles, nous allons construire des algorithmes
-qui permettent de calculer des solutions approchées d'équations aux dérivées
-partielles.
+À partir de ces opérations matricielles, nous allons construire des
+algorithmes qui permettent de calculer des solutions approchées
+d'équations aux dérivées partielles.
 ** Matériel
 - Ordinateurs portable :: faibles performances mais très répandus, en
      général multicoeur à mémoire partagée.
@@ -292,8 +294,8 @@ Notons que ce document est rédigé en utilisant les version suivantes:
 |------------+--------|
 | python     |  3.6.5 |
 | ipython    |  5.4.1 |
-| numpy      | 1.10.4 |
-| scipy      | 0.19.1 |
+| numpy      | 1.14.5 |
+| scipy      |  1.1.0 |
 | matplotlib |  2.2.2 |
 |------------+--------|
 
@@ -409,8 +411,8 @@ procédurale, et sans utiliser de notions de programmation orientée
 objet.
 
 *** Exemples numpy et scipy.sparse
-Les exemples qui ont été présentés en cours sont dans le répertoire
-[[file:exemples_python][exemples_python]], organisés comme décrit ci-dessous.
+Des exemples se trouvent dans le répertoire [[file:exemples_python][exemples_python]], organisés
+comme décrit ci-dessous.
 1. [[file:exemples_python/intro_numpy.ipynb][intro_numpy.ipynb]] : introduction à Numpy. Le code python est dans [[file:exemples_python/intro_numpy.py][intro_numpy.py]].
 2. [[file:exemples_python/intro_matplotlib.py][intro_matplotlib.py]] : script d'introduction pour les graphiques avec
    matplotlib.
