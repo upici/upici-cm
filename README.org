@@ -39,68 +39,111 @@ La note de rapport évalue l'avancement de travail tel qu'il est décrit
 dans le rapport, mais surtout la qualité de l'utilisation des outils et
 méthodes de suivi de projet en groupe.
 ** Emploi du temps 8h de CM + 16h de TDM
-Ce qui est réservé pour l'instant: les mardi matin toutes les semaines
-|----+------+------------------+--------------------------------------------|
-| CM | TDM  |                  |                                            |
-|----+------+------------------+--------------------------------------------|
-| 3h | 3h   | mardi 10/09/2019 | Introduction à git, python                 |
-|    | 2h40 | mardi 17/09/2019 | TP1 individuel                             |
-|    | 2h40 | mardi 24/10/2019 | Début travail en groupes                   |
-|    | 2h40 | mardi 01/10/2019 |                                            |
-| 2h |      | mardi 22/10/2019 | Complément python, latex, cr intermédiaire |
-|    | 2h40 | mardi 12/11/2019 |                                            |
-|    | 2h40 | mardi 19/11/2019 |                                            |
-|    | 2h40 | mardi 26/11/2019 |                                            |
-| 3h |      | mardi 11/12/2019 | Présentation finale des projets            |
-|----+------+------------------+--------------------------------------------|
-| 8h | 16h  |                  |                                            |
-|----+------+------------------+--------------------------------------------|
+Ce qui est réservé pour l'instant: les mardi matin toutes les
+semaines. Ce qui est du: 8h de CM et 16h de TDM, qui seront organisés
+comme dans le tableau
+|----+------+------------------+------------------------------------|
+| CM | TDM  |                  |                                    |
+|----+------+------------------+------------------------------------|
+| 3h |      | mardi 10/09/2019 | Introduction à git, python         |
+|    | 2h40 | mardi 17/09/2019 | TP1 individuel                     |
+|    | 2h40 | mardi 24/10/2019 | Début travail en groupes           |
+|    | 2h40 | mardi 01/10/2019 |                                    |
+| 2h |      | mardi 22/10/2019 | Complément latex, cr intermédiaire |
+|    | 2h40 | mardi 12/11/2019 |                                    |
+|    | 2h40 | mardi 19/11/2019 |                                    |
+|    | 2h40 | mardi 26/11/2019 |                                    |
+| 3h |      | mardi 11/12/2019 | Présentation finale des projets    |
+|----+------+------------------+------------------------------------|
+| 8h | 16h  |                  |                                    |
+|----+------+------------------+------------------------------------|
 ** Codes UE et groupes
 - Code UE :: 4TMS702U
-- Codes groupes :: 4TAQ702S pour "Analyse, EDP, proba" et 4TQM701S
-                   pour tronc commun "EDP - Modélisation - Approximation".
+- Codes groupes :: 
+    + M1 Equations aux dérivées partielles - Modélisation (4TMQM4 -
+      900), 
+    + M1 Analyse, équations aux dérivées partielles, probabilité
+      (4TMAQ4 - 902)
+    + M1 Analyse, équations aux dérivées partielles, probabilité
+      (4TMAQ4 - 901)
 - Email du groupe :: ue-4tms702u@diffetu.u-bordeaux.fr
 ** Tentative de déroulement
- 1. CM1: intro, cadre du cours, exemples, planning, dates importantes, travail à
-    fournir, échanges. Bref cours sur git, python, markdown à partir d'un
-    exemple de code et de compte-rendu en latex, qui deviendra le TP1 à terminer
-    à la prochaine séance.
+ 1. CM1: intro, cadre du cours, exemples, planning, dates importantes,
+    travail à fournir, échanges. Bref cours sur git, python, markdown à
+    partir d'un exemple de code et de compte-rendu en latex, qui
+    deviendra le TP1 à terminer à la prochaine séance. Prise en main
+    github, manipulation git et markdown.
 
- 2. TP1, individuel: gestion individuel d'un projet git. Rédaction d'un premier
-    compte-rendu en Markdown. Prise en main de python: faire réaliser un petit
-    code à chacun. Utilisation de ipython + editeur de texte. Pour traiter un
-    système de 2 EDO à la place d'une EDO unique, puis tracer les trajectoires
-    dans le plan de phase. Discussion et explication des sujets, choix et
-    organisation en groupes.
+ 2. TP1, individuel: gestion individuel d'un projet git
+    individuel. Rédaction d'un compte-rendu en Markdown. Prise en main
+    de python: faire réaliser un petit code à chacun. Traiter un système
+    de 2 EDO à la place d'une EDO unique, puis tracer les trajectoires
+    dans le plan de phase. Discussion et explication des sujets des
+    projets, choix et organisation en groupes.
 
- 3. TP2-3: Premier travail de programmation sur une situation simplifiée du
-    projet. Reflexion sur les difficultés supplémentaires pour le cas 'final',
-    quelles sont les questions auxquelles répondre ? Où trouver les réponses ?
-    Comment organiser le travail à venir ? Rédaction d'un rapport préliminaire
-    en latex si possible.
+ 3. TP2,3: Premier travail de programmation sur une situation
+    simplifiée du projet. Reflexion sur les difficultés supplémentaires
+    pour le cas 'final', quelles sont les questions auxquelles répondre
+    ? Où trouver les réponses ?  Comment organiser le travail à venir ?
+    Rédaction d'un rapport préliminaire en latex si possible.
    
- 4. CM2: compléments théorique python à base d'exemples. Tour de table pour que
-    chaque groupe synthétise son rapport, ses qestions, son
-    cheminement. Commencer le travail final de programmation.
+ 4. CM2: compléments théorique python à base d'exemples, introduction à
+    latex avec des exemples. Présentations eclairs des projets (chaque
+    groupe synthétise son rapport, ses qestions, son cheminement).
 
- 5. TP5-6: travail de programmation sur le projet, et mise au point, via les
-    resources disponibles, et par échange avec l'enseignant.
+ 5. TP4,5: travail de programmation sur le projet, et mise au point, via
+    les resources disponibles, et par échange avec l'enseignant.
 
- 6. TP7: finalisation du projet, rédaction en commun du squelette du rapport,
-    mise en place des éléments les plus importants, notamment les résultats
-    disponibles. Répartition du travail de rédaction et de mise en
-    forme. Rédaction du plan de l'exposé, nombre de diapos, contenu et rôle de
-    chaque diapo.
+ 6. TP6: finalisation du projet, rédaction en commun du squelette du
+    rapport, mise en place des éléments les plus importants, notamment
+    les résultats disponibles. Répartition du travail de rédaction et de
+    mise en forme. Rédaction du plan de l'exposé, nombre de diapos,
+    contenu et rôle de chaque diapo.
 
  7. CM2: exposé par groupe, remise des rapports finaux.
 * Outils et resources
 Plus d'informations dans le premier TP, et plus d'informations disponible au fur
 et à mesure de l'avancement du cours.
-** Git
+** Git résumé très rapide et succin d'informations utiles
 - L'outil Git, par l'intermédiaire de la plateforme, http://github.com
-- https://www.miximum.fr/blog/enfin-comprendre-git/
 - https://openclassrooms.com/courses/gerez-vos-codes-source-avec-git
 - http://yannesposito.com/Scratch/fr/blog/2009-11-12-Git-for-n00b/
+- https://www.miximum.fr/blog/enfin-comprendre-git/
+
+L'arborescence est stockée 3 fois: working, staging, repository.
+
+Pourquoi: pour mieux gérer les commit atomiques.
+
+/Processus de dévelopment:/
+ 1. je développe en modifiant / déplaçant / supprimant des fichiers;
+ 2. quand une série de modification est cohérente et digne d'être
+    commitée, je la place dans la zone de staging;
+ 3. je vérifie que l'état de ma zone de staging est satisfaisant;
+ 4. je committe;
+ 5. et on répète jusqu'à… euh… ben, la fin quoi.
+
+/Entre les espaces de stockage:/
+ - Copie working -> staging: ~git add~
+ - staging -> dépôt: ~git commit~
+ - dépôt -> staging: ~git reset~
+ - staging -> working (efface modifs en cours): ~git checkout~
+ - diff entre working et staging: ~git diff~
+ - diff entre staging et dernier comit: ~git diff --cached~
+
+/Branches:/ On utilise les branches tout le temps, ou presque. Pour
+tester une fonctionnalité; pour isoler un développement un peu long;
+pour mettre quelques commits de côté; pour développer sans péter la
+branche principale; pour corriger un bug sans impacter le développement
+d'une fonctionnalité parallèle. Bref, il y a pleins de raisons
+d'utiliser les branches !
+
+/Commandes sur les branches:/
+ - créer, lister, supprimer: ~git branch~
+ - déplacer la référence HEAD vers une nouvelle branche: ~git checkout~
+ - fusion: on se place sur la branche qui reçoit le merge fusion
+   elle-même: ~git merge <l'autre branche>~
+ - supprimer la branche: ~git branch -d <test>~ 
+ - résolution des conflits: voir ~git help merge~
 ** Latex, Markdown
 - Le langage Markdown, pour l'écriture de compte-rendus hebdomadaires, https://daringfireball.net/projects/markdown
 - Le langage Latex, https://www.latex-project.org. 
