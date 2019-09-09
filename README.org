@@ -1,6 +1,6 @@
 #+TITLE: Utilisation de plateforme industrielle pour le calcul intensif
 #+AUTHOR: Yves Coudière
-#+DATE: [2018-10-19 ven.]
+#+DATE: [2019-09-09 lun.]
 #+EMAIL: yves.coudiere at u-bordeaux.fr [05 24 57 40 36]
 #+LANGUAGE: fr
 
@@ -10,8 +10,8 @@
 * Organisation pratique, évaluation
 ** Les objectifs principaux
 - Découvrir les possibilités d'un langage de haut niveau pour le calcul
-  scientifique, dans notre cas Python avec les modules Numpy, Scipy, Matplotlib,
-  etc.
+  scientifique, dans notre cas Python avec les modules Numpy, Scipy,
+  Matplotlib, etc.
 - Découvrir l'approximation des EDP par la pratique.
 ** La méthode pour y arriver
 Travailler en groupe collaboratifs, en présentiel et à distance: apprentissage
@@ -28,22 +28,33 @@ projet donne lieu à
 - Session 1 : 0.7*rapport + 0.3*contrôle continu (présentation + cr hebdomadaires)
 - Session 2 : 0.7*2e version du rapport + 0.3*max(contrôle continu de
   session 1, note rapport session 2), ie règle du max
+
+La note de contrôle continu évalue
+ 1. Le travail fournit sur le tp individuel du début du semestre, évalué
+    à travers l'état du dépôt git de chacun (pas de dépôt = 0)
+ 2. la régularité du travail hebdomadaire, vu à travers les CR remplis
+    chaque semaine et présents dans le dépôt git
+
+La note de rapport évalue l'avancement de travail tel qu'il est décrit
+dans le rapport, mais surtout la qualité de l'utilisation des outils et
+méthodes de suivi de projet en groupe.
 ** Emploi du temps 8h de CM + 16h de TDM
-|----+------+------------------+---------------------------------|
-| CM | TDM  |                  |                                 |
-|----+------+------------------+---------------------------------|
-| 3h | 3h   | mardi 11/09/2018 | Introduction à git, python      |
-|    | 2h40 | mardi 18/09/2018 | TP1 individuel                  |
-|    | 2h40 | mardi 02/10/2018 | Début travail en groupes        |
-|    | 2h40 | mardi 09/10/2018 |                                 |
-| 2h |      | mardi 23/10/2018 | Complément python, latex        |
-|    | 2h40 | mardi 06/11/2018 |                                 |
-|    | 2h40 | mardi 13/11/2018 |                                 |
-|    | 2h40 | mardi 20/11/2018 |                                 |
-| 3h |      | mardi 11/12/2018 | Présentation finale des projets |
-|----+------+------------------+---------------------------------|
-| 8h | 16h  |                  |                                 |
-|----+------+------------------+---------------------------------|
+Ce qui est réservé pour l'instant: les mardi matin toutes les semaines
+|----+------+------------------+--------------------------------------------|
+| CM | TDM  |                  |                                            |
+|----+------+------------------+--------------------------------------------|
+| 3h | 3h   | mardi 10/09/2019 | Introduction à git, python                 |
+|    | 2h40 | mardi 17/09/2019 | TP1 individuel                             |
+|    | 2h40 | mardi 24/10/2019 | Début travail en groupes                   |
+|    | 2h40 | mardi 01/10/2019 |                                            |
+| 2h |      | mardi 22/10/2019 | Complément python, latex, cr intermédiaire |
+|    | 2h40 | mardi 12/11/2019 |                                            |
+|    | 2h40 | mardi 19/11/2019 |                                            |
+|    | 2h40 | mardi 26/11/2019 |                                            |
+| 3h |      | mardi 11/12/2019 | Présentation finale des projets            |
+|----+------+------------------+--------------------------------------------|
+| 8h | 16h  |                  |                                            |
+|----+------+------------------+--------------------------------------------|
 ** Codes UE et groupes
 - Code UE :: 4TMS702U
 - Codes groupes :: 4TAQ702S pour "Analyse, EDP, proba" et 4TQM701S
