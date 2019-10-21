@@ -1,4 +1,7 @@
 \documentclass[a4paper,12pt,twoside]{report}
+% a4paper: option passée à tous les packages, et notamment geometry
+% twoside: pour impression recto-verso (page de gauche et de droite sont
+% différentes).
 
 \usepackage[french]{babel}  % Pour le français
 \usepackage[utf8]{inputenc} % Pour taper les caractères accentués
@@ -26,16 +29,17 @@
 % typographique.
 % \setlength{\parskip}{0.25cm}
 
-% Quelques définitions 
-\def \rr {{\mathbb R}} % L'ensemble R
-\def \cc {{\mathbb C}} % L'ensemble C
-\def \nn {{\mathbb N}} % L'ensemble N
-\def \zz {{\mathbb Z}} % L'ensemble Z
+% Quelques définitions
+\newcommand{\rr}{{\mathbb R}} % L'ensemble R
+\newcommand{\cc}{{\mathbb C}} % L'ensemble C
+\newcommand{\nn}{{\mathbb N}} % L'ensemble N
+\newcommand{\zz}{{\mathbb Z}} % L'ensemble Z
 
 % Les informations de la page de titre (page de titre séparée pour un 'report').
 \title{Mon premier rapport en \LaTeX}
 \author{
-  Moi Même\thanks{\href{mailto:yves.coudiere@u-bordeaux.fr}{\tt yves.coudiere@u-bordeaux.fr}}
+  Moi Même\thanks{
+    \href{mailto:yves.coudiere@u-bordeaux.fr}{\tt yves.coudiere@u-bordeaux.fr}}
   \and
   Qq'un d'autre\thanks{Bla bla}
 }
