@@ -1,6 +1,6 @@
 #+TITLE: Utilisation de plateforme industrielle pour le calcul intensif
 #+AUTHOR: Yves Coudière
-#+DATE: [2019-09-09 lun.]
+#+DATE: lundi  7 septembre 2020
 #+EMAIL: yves.coudiere at u-bordeaux.fr [05 24 57 40 36]
 #+LANGUAGE: fr
 
@@ -9,31 +9,37 @@
 
 * Organisation pratique, évaluation
 ** Les objectifs principaux
-- Découvrir les possibilités d'un langage de haut niveau pour le calcul
-  scientifique, dans notre cas Python avec les modules Numpy, Scipy,
-  Matplotlib, etc.
-- Découvrir l'approximation des EDP par la pratique.
+- Utiliser un langage de haut niveau pour le calcul scientifique, dans
+  notre cas Python avec les modules Numpy, Scipy, Matplotlib, etc.
+- Se documenter pour concevoir une solution à un problème
+  d'approximation des EDP, par la pratique.
+- Mener un projet sur plusieurs mois.
 ** La méthode pour y arriver
-Travailler en groupe collaboratifs, en présentiel et à distance: apprentissage
-par projets et séances de mise en commun.
+Travailler en groupe collaboratifs, en présentiel et à distance:
+apprentissage par projets et séances de mise en commun.
 
-Chaque groupe de 3 ou 4 étudiants a en charge la réalisation d'un projet. Le
-projet est réalisé pendant les heures de TP et librement en dehors. Chaque
-projet donne lieu à
+Chaque groupe de 2 à 4 étudiants a en charge la réalisation d'un
+projet. Le projet est réalisé pendant les heures de TP et librement en
+dehors. Chaque projet donne lieu à
 - un compte rendu hebdomadaire d'avancement;
 - un temps d'échange après quelques séances;
 - la réalisation d'un compte-rendu terminal;
 - un exposé devant l'ensemble des étudiants.
 ** Évaluation
-- Session 1 : 0.7*rapport + 0.3*contrôle continu (présentation + cr hebdomadaires)
+- Session 1 : 0.7*rapport + 0.3*contrôle continu (présentation + cr
+  hebdomadaires + 1 CR de TP individuel)
 - Session 2 : 0.7*2e version du rapport + 0.3*max(contrôle continu de
   session 1, note rapport session 2), ie règle du max
 
 La note de contrôle continu évalue
- 1. Le travail fournit sur le tp individuel du début du semestre, évalué
-    à travers l'état du dépôt git de chacun (pas de dépôt = 0)
- 2. la régularité du travail hebdomadaire, vu à travers les CR remplis
-    chaque semaine et présents dans le dépôt git
+ 1. La compétence d'utilisation d'un dépôt git hébergé sur github.com,
+    et la capacité à concevoir une solution logiciel à un problème
+    numérique reposant sur les connaissances de licence: évaluation du
+    travail et du CR du tp individuel, évalué à travers l'état et
+    l'historique du dépôt git de chacun (pas de dépôt = 0)
+ 2. la capacité d'organisation du travail demandé sur l'ensemble des
+    semaines, la régularité du travail hebdomadaire, vue à travers les
+    CR remplis chaque semaine et présents dans le dépôt git
 
 La note de rapport évalue l'avancement de travail tel qu'il est décrit
 dans le rapport, mais surtout la qualité de l'utilisation des outils et
@@ -42,21 +48,26 @@ méthodes de suivi de projet en groupe.
 Ce qui est réservé pour l'instant: les mardi matin toutes les
 semaines. Ce qui est du: 8h de CM et 16h de TDM, qui seront organisés
 comme dans le tableau
-|----+------+------------------+------------------------------------|
-| CM | TDM  |                  |                                    |
-|----+------+------------------+------------------------------------|
-| 3h |      | mardi 10/09/2019 | Introduction à git, python         |
-|    | 2h40 | mardi 17/09/2019 | TP1 individuel                     |
-|    | 2h40 | mardi 24/10/2019 | Début travail en groupes           |
-|    | 2h40 | mardi 01/10/2019 |                                    |
-| 2h |      | mardi 22/10/2019 | Complément latex, cr intermédiaire |
-|    | 2h40 | mardi 12/11/2019 |                                    |
-|    | 2h40 | mardi 19/11/2019 |                                    |
-|    | 2h40 | mardi 26/11/2019 |                                    |
-| 3h |      | mardi 11/12/2019 | Présentation finale des projets    |
-|----+------+------------------+------------------------------------|
-| 8h | 16h  |                  |                                    |
-|----+------+------------------+------------------------------------|
+|----+------+------------------+-------------------------------------------------------------|
+| CM | TDM  |                  |                                                             |
+|----+------+------------------+-------------------------------------------------------------|
+| 2h |      | mardi 08/09/2020 | Prise en main de git et github, python                      |
+|    | 2h40 | mardi 15/09/2020 | TP individuel                                               |
+|    | 2h40 | mardi 22/09/2020 | Début travail en groupes, prise en main Numpy et Matplotlib |
+|    | 2h40 | mardi 29/09/2020 |                                                             |
+|    |      | mardi 06/10/2020 |                                                             |
+|    |      | mardi 13/10/2020 |                                                             |
+| 3h |      | mardi 20/10/2020 | Complément latex ou python, cr intermédiaire                |
+|    |      | mardi 27/10/2020 | Vacances                                                    |
+|    | 2h40 | mardi 03/11/2020 |                                                             |
+|    | 2h40 | mardi 10/11/2020 |                                                             |
+|    | 2h40 | mardi 17/11/2020 |                                                             |
+|    |      | mardi 24/11/2020 |                                                             |
+|    |      | mardi 01/12/2020 |                                                             |
+| 3h |      | mardi 08/12/2020 | Présentation finale des projets                             |
+|----+------+------------------+-------------------------------------------------------------|
+| 8h | 16h  |                  |                                                             |
+|----+------+------------------+-------------------------------------------------------------|
 ** Codes UE et groupes
 - Code UE :: 4TMS702U
 - Codes groupes :: 
@@ -71,15 +82,12 @@ comme dans le tableau
  1. CM1: intro, cadre du cours, exemples, planning, dates importantes,
     travail à fournir, échanges. Bref cours sur git, python, markdown à
     partir d'un exemple de code et de compte-rendu en latex, qui
-    deviendra le TP1 à terminer à la prochaine séance. Prise en main
-    github, manipulation git et markdown.
+    deviendra le TP1 à terminer à la prochaine séance. Prise en main git
+    et github.com, manipulation git et markdown.
 
- 2. TP1, individuel: gestion individuel d'un projet git
-    individuel. Rédaction d'un compte-rendu en Markdown. Prise en main
-    de python: faire réaliser un petit code à chacun. Traiter un système
-    de 2 EDO à la place d'une EDO unique, puis tracer les trajectoires
-    dans le plan de phase. Discussion et explication des sujets des
-    projets, choix et organisation en groupes.
+ 2. TP1, individuel: gestion individuelle d'un projet avec
+    git. Rédaction d'un compte-rendu en Markdown. Prise en main de
+    python: faire réaliser un petit code à chacun.
 
  3. TP2,3: Premier travail de programmation sur une situation
     simplifiée du projet. Reflexion sur les difficultés supplémentaires
@@ -89,7 +97,8 @@ comme dans le tableau
    
  4. CM2: compléments théorique python à base d'exemples, introduction à
     latex avec des exemples. Présentations eclairs des projets (chaque
-    groupe synthétise son rapport, ses qestions, son cheminement).
+    groupe synthétise son rapport, ses questions, son cheminement,
+    lecture de code).
 
  5. TP4,5: travail de programmation sur le projet, et mise au point, via
     les resources disponibles, et par échange avec l'enseignant.
@@ -291,11 +300,11 @@ Liste de quelques liens.
 
 Notons que ce document est rédigé en utilisant les version suivantes:
 |------------+--------|
-| python     |  3.6.5 |
-| ipython    |  5.4.1 |
-| numpy      | 1.14.5 |
-| scipy      |  1.1.0 |
-| matplotlib |  2.2.2 |
+| python     |  3.7.8 |
+| ipython    | 7.17.0 |
+| numpy      | 1.19.0 |
+| scipy      |  1.4.1 |
+| matplotlib |  3.2.2 |
 |------------+--------|
 
 On trouve en ligne de nombreux tutoriels Python, généralistes ou spécialisés
