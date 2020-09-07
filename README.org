@@ -403,8 +403,8 @@ Communauté importante d'utilisateurs, écosystème étendu:
 - scipy :: http://www.scipy.org -- nombreux algorithmes de calculs scientifique,
      organisé en modules, comme algèbre linéaire, transformé de Fourier, etc.
 - matplotlib :: http://www.matplotlib.org -- sorties graphiques.
-- mpi4py :: http://pythonhosted.org/mpi4py -- bibliothèque de passage de
-     messages entre process pour le calcul parallèle
+- mpi4py :: https://pypi.org/project/mpi4py -- bibliothèque de passage
+  de messages entre process pour le calcul parallèle
 - etc :: et plein d'autres
 
 Bonnes performances grâce à l'integration des bibliothèques optimisées venant du
